@@ -5,6 +5,7 @@
   <description>MIDI file import "Val-a3-1.mid" on Apr 09 2018 08:29:28.
 MIDI file import "Val-a3-2.mid" on Apr 09 2018 15:53:44.
 MIDI file import "Val-a3-a3.MID" on Apr 10 2018 08:17:17.
+MIDI file import "Val-a3-6.MID" on Apr 10 2018 13:40:31.
 </description>
   <sample-rate>44100</sample-rate>
   <tempo>120</tempo>
@@ -22,6 +23,8 @@ MIDI file import "Val-a3-a3.MID" on Apr 10 2018 08:17:17.
   <audio-list/>
   <midi-list>
    <file name="Valkyrjar_act3-Val_a3_1-7.mid">Valkyrjar_act3-Val_a3_1-7.mid</file>
+   <file name="Val-a3-6.MID">../MIDI/Val-a3-6.MID</file>
+   <file name="Valkyrjar_act3-Val_a3_1-6.mid">Valkyrjar_act3-Val_a3_1-6.mid</file>
   </midi-list>
  </files>
  <devices>
@@ -92,7 +95,7 @@ MIDI file import "Val-a3-a3.MID" on Apr 10 2018 08:17:17.
     <output-controllers/>
     <output-plugins>
      <bank>0</bank>
-     <program>0</program>
+     <program>32</program>
      <audio-output-bus-name></audio-output-bus-name>
      <audio-output-bus>0</audio-output-bus>
      <audio-output-auto-connect>1</audio-output-auto-connect>
@@ -120,7 +123,6 @@ MIDI file import "Val-a3-a3.MID" on Apr 10 2018 08:17:17.
       <midi-program>49</midi-program>
      </midi-patch>
      <midi-patch channel="4">
-      <midi-bank-sel-method>0</midi-bank-sel-method>
       <midi-bank>0</midi-bank>
       <midi-program>0</midi-program>
      </midi-patch>
@@ -140,8 +142,8 @@ MIDI file import "Val-a3-a3.MID" on Apr 10 2018 08:17:17.
    <horizontal-zoom>40</horizontal-zoom>
    <vertical-zoom>100</vertical-zoom>
    <snap-per-beat>0</snap-per-beat>
-   <edit-head>51664528</edit-head>
-   <edit-tail>51857468</edit-tail>
+   <edit-head>114168192</edit-head>
+   <edit-tail>114168192</edit-tail>
   </view>
   <track name="Val-a3-1" type="midi">
    <properties>
@@ -172,18 +174,18 @@ MIDI file import "Val-a3-a3.MID" on Apr 10 2018 08:17:17.
       <name>Val-a3-1</name>
       <start>0</start>
       <offset>0</offset>
-      <length>93972040</length>
+      <length>119868624</length>
       <gain>1</gain>
       <panning>0</panning>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
      </properties>
      <midi-clip>
-      <filename>Valkyrjar_act3-Val_a3_1-7.mid</filename>
+      <filename>Valkyrjar_act3-Val_a3_1-6.mid</filename>
       <track-channel>1</track-channel>
       <revision>4</revision>
       <editor-pos>35,795</editor-pos>
-      <editor-size>1331,711</editor-size>
+      <editor-size>1331,713</editor-size>
      </midi-clip>
     </clip>
    </clips>
