@@ -1,5 +1,5 @@
 <!DOCTYPE qtractorSession>
-<session version="Qtractor 0.9.1" name="Valkyrjar-act3">
+<session name="Valkyrjar-act3" version="Qtractor 0.9.1">
  <properties>
   <directory>/home/frank/Music/QTR</directory>
   <description>MIDI file import "Val-a3-1.mid" on Apr 09 2018 08:29:28.
@@ -41,11 +41,11 @@ MIDI file import "Val-a3-a3.MID" on Apr 10 2018 08:17:17.
     <input-connects>
      <connect index="0">
       <client>qsynth</client>
-      <port>l_00</port>
+      <port>left</port>
      </connect>
      <connect index="1">
       <client>qsynth</client>
-      <port>r_00</port>
+      <port>right</port>
      </connect>
     </input-connects>
     <output-gain>1</output-gain>
@@ -81,7 +81,12 @@ MIDI file import "Val-a3-a3.MID" on Apr 10 2018 08:17:17.
      <audio-output-bus>0</audio-output-bus>
      <audio-output-auto-connect>1</audio-output-auto-connect>
     </input-plugins>
-    <input-connects/>
+    <input-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+    </input-connects>
     <output-gain>1</output-gain>
     <output-panning>0</output-panning>
     <output-controllers/>
@@ -94,32 +99,36 @@ MIDI file import "Val-a3-a3.MID" on Apr 10 2018 08:17:17.
     </output-plugins>
     <output-connects>
      <connect index="0">
-      <client>129:FLUID Synth (12501)</client>
-      <port>0:Synth input port (12501:0)</port>
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+     <connect index="0">
+      <client>130:FLUID Synth (2845)</client>
+      <port>0:Synth input port (2845:0)</port>
      </connect>
     </output-connects>
     <midi-map>
-     <midi-patch channel="4">
-      <midi-bank-sel-method>0</midi-bank-sel-method>
-      <midi-bank>0</midi-bank>
-      <midi-program>0</midi-program>
-     </midi-patch>
-     <midi-patch channel="5">
-      <midi-bank>0</midi-bank>
-      <midi-program>49</midi-program>
-     </midi-patch>
-     <midi-patch channel="2">
-      <midi-bank-sel-method>0</midi-bank-sel-method>
-     </midi-patch>
-     <midi-patch channel="3">
-      <midi-bank-sel-method>0</midi-bank-sel-method>
-     </midi-patch>
      <midi-patch channel="1">
       <midi-bank-sel-method>0</midi-bank-sel-method>
      </midi-patch>
      <midi-patch channel="6">
       <midi-bank>0</midi-bank>
       <midi-program>32</midi-program>
+     </midi-patch>
+     <midi-patch channel="5">
+      <midi-bank>0</midi-bank>
+      <midi-program>49</midi-program>
+     </midi-patch>
+     <midi-patch channel="4">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+      <midi-bank>0</midi-bank>
+      <midi-program>0</midi-program>
+     </midi-patch>
+     <midi-patch channel="3">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+     </midi-patch>
+     <midi-patch channel="2">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
      </midi-patch>
     </midi-map>
    </midi-bus>
@@ -131,10 +140,10 @@ MIDI file import "Val-a3-a3.MID" on Apr 10 2018 08:17:17.
    <horizontal-zoom>40</horizontal-zoom>
    <vertical-zoom>100</vertical-zoom>
    <snap-per-beat>0</snap-per-beat>
-   <edit-head>90212064</edit-head>
-   <edit-tail>90212064</edit-tail>
+   <edit-head>51664528</edit-head>
+   <edit-tail>51857468</edit-tail>
   </view>
-  <track type="midi" name="Val-a3-1">
+  <track name="Val-a3-1" type="midi">
    <properties>
     <input-bus>Master</input-bus>
     <output-bus>Master</output-bus>
@@ -172,9 +181,9 @@ MIDI file import "Val-a3-a3.MID" on Apr 10 2018 08:17:17.
      <midi-clip>
       <filename>Valkyrjar_act3-Val_a3_1-7.mid</filename>
       <track-channel>1</track-channel>
-      <revision>3</revision>
+      <revision>4</revision>
       <editor-pos>35,795</editor-pos>
-      <editor-size>1331,713</editor-size>
+      <editor-size>1331,711</editor-size>
      </midi-clip>
     </clip>
    </clips>
