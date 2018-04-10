@@ -1,0 +1,360 @@
+<!DOCTYPE qtractorSession>
+<session version="Qtractor 0.8.5" name="penguinUni">
+ <properties>
+  <directory>/home/frank/Music/QTR</directory>
+  <description>MIDI file import "penguinUni.MID" on Jan. 07 2018 12:37:57.
+Audio file import "TAKE01.WAV" on Jan. 09 2018 12:46:53.
+Audio file import "GFM2.WAV" on Jan. 10 2018 11:51:30.
+</description>
+  <sample-rate>44100</sample-rate>
+  <tempo>120</tempo>
+  <ticks-per-beat>960</ticks-per-beat>
+  <beats-per-bar>4</beats-per-bar>
+  <beat-divisor>2</beat-divisor>
+ </properties>
+ <state>
+  <loop-start>0</loop-start>
+  <loop-end>0</loop-end>
+  <punch-in>0</punch-in>
+  <punch-out>0</punch-out>
+ </state>
+ <files>
+  <audio-list>
+   <file name="penguinUni-Track_2-1.flac">penguinUni-Track_2-1.flac</file>
+   <file name="penguinUni-Track_2-2.flac">penguinUni-Track_2-2.flac</file>
+   <file name="TAKE01.WAV">../WAV/TAKE01.WAV</file>
+   <file name="077300.flac">../FLAC/077300.flac</file>
+   <file name="077301.flac">../FLAC/077301.flac</file>
+   <file name="GFM2.WAV">../WAV/GFM2.WAV</file>
+  </audio-list>
+  <midi-list>
+   <file name="penguinUni.MID">../MIDI/penguinUni.MID</file>
+   <file name="penguinUni-penguinUni-1.mid">penguinUni-penguinUni-1.mid</file>
+   <file name="penguinUni-penguinUni-2.mid">penguinUni-penguinUni-2.mid</file>
+  </midi-list>
+ </files>
+ <devices>
+  <audio-engine>
+   <audio-control>
+    <transport-mode>duplex</transport-mode>
+    <timebase>1</timebase>
+   </audio-control>
+   <audio-bus mode="duplex" name="Master">
+    <monitor>0</monitor>
+    <channels>2</channels>
+    <auto-connect>1</auto-connect>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins/>
+    <input-connects>
+     <connect index="0">
+      <client>qsynth</client>
+      <port>l_00</port>
+     </connect>
+     <connect index="1">
+      <client>qsynth</client>
+      <port>r_00</port>
+     </connect>
+    </input-connects>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <plugin type="LV2">
+      <filename>http://calf.sourceforge.net/plugins/Limiter</filename>
+      <index>0</index>
+      <label>Calf_Limiter</label>
+      <preset></preset>
+      <direct-access-param>-1</direct-access-param>
+      <activated>1</activated>
+      <configs/>
+      <params>
+       <param index="4" name="Bypass">0</param>
+       <param index="5" name="Input Gain">1</param>
+       <param index="6" name="Output Gain">1</param>
+       <param index="15" name="Limit">1</param>
+       <param index="16" name="Lookahead">5</param>
+       <param index="17" name="Release">50</param>
+       <param index="19" name="ASC">1</param>
+       <param index="21" name="ASC Level">0.5</param>
+       <param index="22" name="Oversampling">1</param>
+      </params>
+      <controllers/>
+      <editor-pos>534,14</editor-pos>
+      <form-pos>0,0</form-pos>
+     </plugin>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>system</client>
+      <port>playback_1</port>
+     </connect>
+     <connect index="1">
+      <client>system</client>
+      <port>playback_2</port>
+     </connect>
+    </output-connects>
+   </audio-bus>
+  </audio-engine>
+  <midi-engine>
+   <midi-control>
+    <mmc-mode>duplex</mmc-mode>
+    <mmc-device>127</mmc-device>
+    <spp-mode>duplex</spp-mode>
+    <clock-mode>none</clock-mode>
+   </midi-control>
+   <midi-bus mode="duplex" name="Master">
+    <monitor>0</monitor>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </input-plugins>
+    <input-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+     <connect index="0">
+      <client>20:i2 mini 32</client>
+      <port>0:i2 mini 32 MIDI 1</port>
+     </connect>
+     <connect index="0">
+      <client>16:nanoKONTROL2</client>
+      <port>0:nanoKONTROL2 MIDI 1</port>
+     </connect>
+    </input-connects>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <bank>0</bank>
+     <program>0</program>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+    </output-connects>
+    <midi-map>
+     <midi-patch channel="4">
+      <midi-bank>0</midi-bank>
+      <midi-program>0</midi-program>
+     </midi-patch>
+     <midi-patch channel="5">
+      <midi-bank>0</midi-bank>
+      <midi-program>49</midi-program>
+     </midi-patch>
+     <midi-patch channel="6">
+      <midi-bank>0</midi-bank>
+      <midi-program>32</midi-program>
+     </midi-patch>
+    </midi-map>
+   </midi-bus>
+   <midi-bus mode="duplex" name="Master2">
+    <monitor>0</monitor>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </input-plugins>
+    <input-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+    </input-connects>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+     <connect index="0">
+      <client>132:FLUID Synth (2066)</client>
+      <port>0:Synth input port (2066:0)</port>
+     </connect>
+    </output-connects>
+    <midi-map>
+     <midi-patch channel="4">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+     </midi-patch>
+    </midi-map>
+   </midi-bus>
+  </midi-engine>
+ </devices>
+ <tracks>
+  <view>
+   <pixels-per-beat>32</pixels-per-beat>
+   <horizontal-zoom>10</horizontal-zoom>
+   <vertical-zoom>100</vertical-zoom>
+   <snap-per-beat>0</snap-per-beat>
+   <edit-head>11777618</edit-head>
+   <edit-tail>11864898</edit-tail>
+  </view>
+  <track type="audio" name="TAKE01">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>497</height>
+    <background-color>#ccffff</background-color>
+    <foreground-color>#667f7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="GFM2">
+     <properties>
+      <name>GFM2</name>
+      <start>0</start>
+      <offset>0</offset>
+      <length>7054461</length>
+      <gain>4.46491</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/GFM2.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="GFM2">
+     <properties>
+      <name>GFM2</name>
+      <start>7054461</start>
+      <offset>7558259</offset>
+      <length>2597583</length>
+      <gain>4.46491</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/GFM2.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="GFM2">
+     <properties>
+      <name>GFM2</name>
+      <start>9652044</start>
+      <offset>10404796</offset>
+      <length>2190644</length>
+      <gain>4.46491</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/GFM2.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="GFM2">
+     <properties>
+      <name>GFM2</name>
+      <start>11842688</start>
+      <offset>12617652</offset>
+      <length>1218630</length>
+      <gain>4.46491</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/GFM2.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <plugin type="LV2">
+     <filename>http://calf.sourceforge.net/plugins/Reverb</filename>
+     <index>0</index>
+     <label>Calf_Reverb</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs/>
+     <params>
+      <param index="7" name="Decay time">1.5</param>
+      <param index="8" name="High Frq Damp">5000</param>
+      <param index="9" name="Room size">2</param>
+      <param index="10" name="Diffusion">0.5</param>
+      <param index="11" name="Wet Amount">0.189991</param>
+      <param index="12" name="Dry Amount">1</param>
+      <param index="13" name="Pre Delay">0</param>
+      <param index="14" name="Bass Cut">300</param>
+      <param index="15" name="Treble Cut">5000</param>
+     </params>
+     <controllers/>
+     <editor-pos>801,323</editor-pos>
+     <form-pos>0,0</form-pos>
+    </plugin>
+   </plugins>
+  </track>
+  <track type="audio" name="GFM2">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#99ffff</background-color>
+    <foreground-color>#4c7f7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips/>
+   <plugins/>
+  </track>
+ </tracks>
+</session>
+

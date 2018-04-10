@@ -1,0 +1,333 @@
+<!DOCTYPE qtractorSession>
+<session version="Qtractor 0.8.5" name="rnd2">
+ <properties>
+  <directory>/home/frank/Music/QTR</directory>
+  <description></description>
+  <sample-rate>44100</sample-rate>
+  <tempo>120</tempo>
+  <ticks-per-beat>960</ticks-per-beat>
+  <beats-per-bar>4</beats-per-bar>
+  <beat-divisor>2</beat-divisor>
+ </properties>
+ <state>
+  <loop-start>0</loop-start>
+  <loop-end>0</loop-end>
+  <punch-in>0</punch-in>
+  <punch-out>0</punch-out>
+ </state>
+ <files>
+  <audio-list>
+   <file name="rnd2-Track_2-1.flac">rnd2-Track_2-1.flac</file>
+  </audio-list>
+  <midi-list/>
+ </files>
+ <devices>
+  <audio-engine>
+   <audio-control>
+    <transport-mode>duplex</transport-mode>
+    <timebase>1</timebase>
+   </audio-control>
+   <audio-bus mode="duplex" name="Master">
+    <monitor>1</monitor>
+    <channels>2</channels>
+    <auto-connect>1</auto-connect>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins/>
+    <input-connects>
+     <connect index="0">
+      <client>ams_1</client>
+      <port>out_0</port>
+     </connect>
+     <connect index="1">
+      <client>ams_1</client>
+      <port>out_1</port>
+     </connect>
+    </input-connects>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <plugin type="LV2">
+      <filename>http://calf.sourceforge.net/plugins/Limiter</filename>
+      <index>0</index>
+      <label>Calf_Limiter</label>
+      <preset></preset>
+      <direct-access-param>-1</direct-access-param>
+      <activated>1</activated>
+      <configs/>
+      <params>
+       <param index="4" name="Bypass">0</param>
+       <param index="5" name="Input Gain">1.18099</param>
+       <param index="6" name="Output Gain">1</param>
+       <param index="15" name="Limit">1</param>
+       <param index="16" name="Lookahead">5</param>
+       <param index="17" name="Release">50</param>
+       <param index="19" name="ASC">1</param>
+       <param index="21" name="ASC Level">0.5</param>
+       <param index="22" name="Oversampling">1</param>
+      </params>
+      <controllers/>
+      <editor-pos>534,14</editor-pos>
+      <form-pos>0,0</form-pos>
+     </plugin>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>system</client>
+      <port>playback_1</port>
+     </connect>
+     <connect index="1">
+      <client>system</client>
+      <port>playback_2</port>
+     </connect>
+    </output-connects>
+   </audio-bus>
+  </audio-engine>
+  <midi-engine>
+   <midi-control>
+    <mmc-mode>duplex</mmc-mode>
+    <mmc-device>127</mmc-device>
+    <spp-mode>duplex</spp-mode>
+    <clock-mode>none</clock-mode>
+   </midi-control>
+   <midi-bus mode="duplex" name="Master">
+    <monitor>0</monitor>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </input-plugins>
+    <input-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+     <connect index="0">
+      <client>20:i2 mini 32</client>
+      <port>0:i2 mini 32 MIDI 1</port>
+     </connect>
+     <connect index="0">
+      <client>24:nanoKONTROL2</client>
+      <port>0:nanoKONTROL2 MIDI 1</port>
+     </connect>
+    </input-connects>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+     <connect index="0">
+      <client>132:ams_1 Midi</client>
+      <port>0:ams in</port>
+     </connect>
+    </output-connects>
+    <midi-map/>
+   </midi-bus>
+  </midi-engine>
+ </devices>
+ <tracks>
+  <view>
+   <pixels-per-beat>32</pixels-per-beat>
+   <horizontal-zoom>100</horizontal-zoom>
+   <vertical-zoom>100</vertical-zoom>
+   <snap-per-beat>0</snap-per-beat>
+   <edit-head>41505680</edit-head>
+   <edit-tail>43186992</edit-tail>
+  </view>
+  <track type="midi" name="Track 1">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+    <midi-omni>0</midi-omni>
+    <midi-channel>0</midi-channel>
+    <midi-bank-sel-method>0</midi-bank-sel-method>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#ccffff</background-color>
+    <foreground-color>#667f7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips/>
+   <plugins>
+    <audio-output-bus-name></audio-output-bus-name>
+    <audio-output-bus>0</audio-output-bus>
+    <audio-output-auto-connect>1</audio-output-auto-connect>
+   </plugins>
+  </track>
+  <track type="audio" name="Track 2">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>1</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>544</height>
+    <background-color>#99ffff</background-color>
+    <foreground-color>#4c7f7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="Track_2-1">
+     <properties>
+      <name>Track_2-1</name>
+      <start>0</start>
+      <offset>0</offset>
+      <length>1017516</length>
+      <gain>0.562341</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">14930</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>rnd2-Track_2-1.flac</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="Track_2-1">
+     <properties>
+      <name>Track_2-1</name>
+      <start>1017516</start>
+      <offset>1017515</offset>
+      <length>4019531</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>rnd2-Track_2-1.flac</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="Track_2-1">
+     <properties>
+      <name>Track_2-1</name>
+      <start>5037047</start>
+      <offset>11769187</offset>
+      <length>29939765</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">15504</fade-in>
+      <fade-out type="OutQuad">19524</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>rnd2-Track_2-1.flac</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="Track_2-1">
+     <properties>
+      <name>Track_2-1</name>
+      <start>35198004</start>
+      <offset>5043936</offset>
+      <length>6723180</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">13780</fade-in>
+      <fade-out type="OutQuad">31008</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>rnd2-Track_2-1.flac</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <plugin type="LV2">
+     <filename>http://gareus.org/oss/lv2/fil4#stereo</filename>
+     <index>0</index>
+     <label>4_Band_Parametric_EQ_Stereo</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs>
+      <config type="http://lv2plug.in/ns/ext/atom#Float" key="http://gareus.org/oss/lv2/fil4#dbscale">30</config>
+      <config type="http://lv2plug.in/ns/ext/atom#Float" key="http://gareus.org/oss/lv2/fil4#fftgain">0</config>
+      <config type="http://lv2plug.in/ns/ext/atom#Int" key="http://gareus.org/oss/lv2/fil4#fftchannel">-1</config>
+      <config type="http://lv2plug.in/ns/ext/atom#Int" key="http://gareus.org/oss/lv2/fil4#fftmode">4609</config>
+     </configs>
+     <params>
+      <param index="2" name="Enable">1</param>
+      <param index="3" name="Gain">0</param>
+      <param index="5" name="Reset Peak Hold">1</param>
+      <param index="6" name="Highpass">0</param>
+      <param index="7" name="Highpass Frequency">20</param>
+      <param index="8" name="HighPass Resonance">0.7</param>
+      <param index="9" name="Lowpass">0</param>
+      <param index="10" name="Lowpass Frequency">20000</param>
+      <param index="11" name="LowPass Resonance">1</param>
+      <param index="12" name="Lowshelf">1</param>
+      <param index="13" name="Lowshelf Frequency">127.73</param>
+      <param index="14" name="Lowshelf Bandwidth">1</param>
+      <param index="15" name="Lowshelf Gain">-5.6</param>
+      <param index="16" name="Section 1">1</param>
+      <param index="17" name="Frequency 1">160</param>
+      <param index="18" name="Bandwidth 1">0.6</param>
+      <param index="19" name="Gain 1">0</param>
+      <param index="20" name="Section 2">1</param>
+      <param index="21" name="Frequency 2">397</param>
+      <param index="22" name="Bandwidth 2">0.6</param>
+      <param index="23" name="Gain 2">0</param>
+      <param index="24" name="Section 3">1</param>
+      <param index="25" name="Frequency 3">1250</param>
+      <param index="26" name="Bandwidth 3">0.6</param>
+      <param index="27" name="Gain 3">0</param>
+      <param index="28" name="Section 4">1</param>
+      <param index="29" name="Frequency 4">2500</param>
+      <param index="30" name="Bandwidth 4">0.6</param>
+      <param index="31" name="Gain 4">0</param>
+      <param index="32" name="Highshelf">1</param>
+      <param index="33" name="Highshelf Frequency">8000</param>
+      <param index="34" name="Highshelf Bandwidth">1</param>
+      <param index="35" name="Highshelf Gain">0</param>
+     </params>
+     <controllers/>
+     <editor-pos>1067,14</editor-pos>
+     <form-pos>0,0</form-pos>
+    </plugin>
+   </plugins>
+  </track>
+ </tracks>
+</session>
+

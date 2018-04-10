@@ -1,0 +1,603 @@
+<!DOCTYPE qtractorSession>
+<session name="ams" version="Qtractor 0.8.5">
+ <properties>
+  <directory>/home/frank/Music/QTR</directory>
+  <description>Audio file import "ukUNI_1.WAV" on Jan. 03 2018 17:18:03.
+</description>
+  <sample-rate>44100</sample-rate>
+  <tempo>120</tempo>
+  <ticks-per-beat>960</ticks-per-beat>
+  <beats-per-bar>4</beats-per-bar>
+  <beat-divisor>2</beat-divisor>
+ </properties>
+ <state>
+  <loop-start>0</loop-start>
+  <loop-end>0</loop-end>
+  <punch-in>0</punch-in>
+  <punch-out>0</punch-out>
+ </state>
+ <files>
+  <audio-list>
+   <file name="ams-Track_2-1.flac">ams-Track_2-1.flac</file>
+   <file name="ukUNI_1.WAV">../WAV/ukUNI_1.WAV</file>
+   <file name="076900.flac">../FLAC/076900.flac</file>
+  </audio-list>
+  <midi-list>
+   <file name="ams-Track_1-1.mid">ams-Track_1-1.mid</file>
+   <file name="ams-Track_1-2.mid">ams-Track_1-2.mid</file>
+   <file name="ams-Track_1-4.mid">ams-Track_1-4.mid</file>
+   <file name="ams-Track_1-5.mid">ams-Track_1-5.mid</file>
+   <file name="ams-Track_1-6.mid">ams-Track_1-6.mid</file>
+   <file name="ams-Track_1-7.mid">ams-Track_1-7.mid</file>
+   <file name="ams-Track_1-8.mid">ams-Track_1-8.mid</file>
+  </midi-list>
+ </files>
+ <devices>
+  <audio-engine>
+   <audio-control>
+    <transport-mode>duplex</transport-mode>
+    <timebase>1</timebase>
+   </audio-control>
+   <audio-bus name="Master" mode="duplex">
+    <monitor>1</monitor>
+    <channels>2</channels>
+    <auto-connect>1</auto-connect>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins/>
+    <input-connects/>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <plugin type="LV2">
+      <filename>http://calf.sourceforge.net/plugins/Limiter</filename>
+      <index>0</index>
+      <label>Calf_Limiter</label>
+      <preset></preset>
+      <direct-access-param>-1</direct-access-param>
+      <activated>1</activated>
+      <configs/>
+      <params>
+       <param name="Bypass" index="4">0</param>
+       <param name="Input Gain" index="5">1.18099</param>
+       <param name="Output Gain" index="6">1</param>
+       <param name="Limit" index="15">1</param>
+       <param name="Lookahead" index="16">5</param>
+       <param name="Release" index="17">50</param>
+       <param name="ASC" index="19">1</param>
+       <param name="ASC Level" index="21">0.5</param>
+       <param name="Oversampling" index="22">1</param>
+      </params>
+      <controllers/>
+      <editor-pos>800,14</editor-pos>
+      <form-pos>0,0</form-pos>
+     </plugin>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>system</client>
+      <port>playback_1</port>
+     </connect>
+     <connect index="1">
+      <client>system</client>
+      <port>playback_2</port>
+     </connect>
+    </output-connects>
+   </audio-bus>
+  </audio-engine>
+  <midi-engine>
+   <midi-control>
+    <mmc-mode>duplex</mmc-mode>
+    <mmc-device>127</mmc-device>
+    <spp-mode>duplex</spp-mode>
+    <clock-mode>none</clock-mode>
+   </midi-control>
+   <midi-bus name="Master" mode="duplex">
+    <monitor>0</monitor>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins>
+     <bank>0</bank>
+     <program>0</program>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </input-plugins>
+    <input-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+    </input-connects>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <bank>0</bank>
+     <program>0</program>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+    </output-connects>
+    <midi-map>
+     <midi-patch channel="0">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+     </midi-patch>
+    </midi-map>
+   </midi-bus>
+  </midi-engine>
+ </devices>
+ <tracks>
+  <view>
+   <pixels-per-beat>32</pixels-per-beat>
+   <horizontal-zoom>10</horizontal-zoom>
+   <vertical-zoom>100</vertical-zoom>
+   <snap-per-beat>0</snap-per-beat>
+   <edit-head>0</edit-head>
+   <edit-tail>9998298</edit-tail>
+  </view>
+  <track name="Track 1" type="midi">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+    <midi-omni>0</midi-omni>
+    <midi-channel>0</midi-channel>
+    <midi-bank-sel-method>0</midi-bank-sel-method>
+   </properties>
+   <state>
+    <mute>1</mute>
+    <solo>0</solo>
+    <record>1</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>308</height>
+    <background-color>#ccffff</background-color>
+    <foreground-color>#667f7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips/>
+   <plugins>
+    <bank>0</bank>
+    <program>0</program>
+    <audio-output-bus-name></audio-output-bus-name>
+    <audio-output-bus>0</audio-output-bus>
+    <audio-output-auto-connect>1</audio-output-auto-connect>
+   </plugins>
+  </track>
+  <track name="ukUNI_1" type="audio">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>288</height>
+    <background-color>#ffccff</background-color>
+    <foreground-color>#7f667f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="ukUNI_1">
+     <properties>
+      <name>ukUNI_1</name>
+      <start>0</start>
+      <offset>3134086</offset>
+      <length>307299</length>
+      <gain>1.01233</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">4869</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ukUNI_1.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ukUNI_1">
+     <properties>
+      <name>ukUNI_1</name>
+      <start>307299</start>
+      <offset>3519134</offset>
+      <length>512456</length>
+      <gain>1.01233</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ukUNI_1.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ukUNI_1">
+     <properties>
+      <name>ukUNI_1</name>
+      <start>819755</start>
+      <offset>4057567</offset>
+      <length>351651</length>
+      <gain>1.01233</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ukUNI_1.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ukUNI_1">
+     <properties>
+      <name>ukUNI_1</name>
+      <start>1171406</start>
+      <offset>4424609</offset>
+      <length>1991391</length>
+      <gain>1.01233</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ukUNI_1.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ukUNI_1">
+     <properties>
+      <name>ukUNI_1</name>
+      <start>3162797</start>
+      <offset>6471125</offset>
+      <length>453633</length>
+      <gain>1.01233</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ukUNI_1.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ukUNI_1">
+     <properties>
+      <name>ukUNI_1</name>
+      <start>3616430</start>
+      <offset>6974140</offset>
+      <length>2297</length>
+      <gain>1.01233</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ukUNI_1.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ukUNI_1">
+     <properties>
+      <name>ukUNI_1</name>
+      <start>3618727</start>
+      <offset>7033857</offset>
+      <length>404985</length>
+      <gain>1.01233</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ukUNI_1.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ukUNI_1">
+     <properties>
+      <name>ukUNI_1</name>
+      <start>4023712</start>
+      <offset>7463214</offset>
+      <length>575872</length>
+      <gain>1.01233</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ukUNI_1.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ukUNI_1">
+     <properties>
+      <name>ukUNI_1</name>
+      <start>4599584</start>
+      <offset>8068852</offset>
+      <length>290141</length>
+      <gain>1.01233</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ukUNI_1.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ukUNI_1">
+     <properties>
+      <name>ukUNI_1</name>
+      <start>4889725</start>
+      <offset>8485483</offset>
+      <length>628770</length>
+      <gain>1.01233</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ukUNI_1.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ukUNI_1">
+     <properties>
+      <name>ukUNI_1</name>
+      <start>5518495</start>
+      <offset>9175029</offset>
+      <length>75292</length>
+      <gain>1.01233</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ukUNI_1.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ukUNI_1">
+     <properties>
+      <name>ukUNI_1</name>
+      <start>5593787</start>
+      <offset>9304457</offset>
+      <length>35854</length>
+      <gain>1.01233</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ukUNI_1.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ukUNI_1">
+     <properties>
+      <name>ukUNI_1</name>
+      <start>5629641</start>
+      <offset>14136185</offset>
+      <length>93644</length>
+      <gain>1.01233</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ukUNI_1.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ukUNI_1">
+     <properties>
+      <name>ukUNI_1</name>
+      <start>5847316</start>
+      <offset>14229828</offset>
+      <length>88475</length>
+      <gain>1.01233</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">13459</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ukUNI_1.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ukUNI_1">
+     <properties>
+      <name>ukUNI_1</name>
+      <start>6160771</start>
+      <offset>14353907</offset>
+      <length>257295</length>
+      <gain>1.01233</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ukUNI_1.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ukUNI_1">
+     <properties>
+      <name>ukUNI_1</name>
+      <start>6549723</start>
+      <offset>14611203</offset>
+      <length>455539</length>
+      <gain>1.01233</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ukUNI_1.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ukUNI_1">
+     <properties>
+      <name>ukUNI_1</name>
+      <start>7310953</start>
+      <offset>15066743</offset>
+      <length>2324575</length>
+      <gain>1.01233</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">179156</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ukUNI_1.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <plugin type="LADSPA">
+     <filename>/usr/lib/ladspa/delayorama_1402.so</filename>
+     <index>0</index>
+     <label>delayorama</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs/>
+     <params>
+      <param name="Random seed" index="0">0</param>
+      <param name="Input gain (dB)" index="1">0</param>
+      <param name="Feedback (%)" index="2">0</param>
+      <param name="Number of taps" index="3">2</param>
+      <param name="First delay (s)" index="4">1.677</param>
+      <param name="Delay range (s)" index="5">3.87364</param>
+      <param name="Delay change" index="6">1</param>
+      <param name="Delay random (%)" index="7">33.76</param>
+      <param name="Amplitude change" index="8">1</param>
+      <param name="Amplitude random (%)" index="9">0</param>
+      <param name="Dry/wet mix" index="10">0.4013</param>
+     </params>
+     <controllers/>
+     <editor-pos>0,0</editor-pos>
+     <form-pos>1067,14</form-pos>
+    </plugin>
+    <plugin type="LV2">
+     <filename>http://calf.sourceforge.net/plugins/MultiChorus</filename>
+     <index>0</index>
+     <label>Calf_Multi_Chorus</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs/>
+     <params>
+      <param name="Min delay" index="4">5</param>
+      <param name="Mod depth" index="5">6</param>
+      <param name="Modulation rate" index="6">0.372641</param>
+      <param name="Stereo phase" index="7">180</param>
+      <param name="Voices" index="8">4</param>
+      <param name="Inter-voice phase" index="9">48</param>
+      <param name="Amount" index="10">1</param>
+      <param name="Dry Amount" index="11">0.552482</param>
+      <param name="Center Frq 1" index="12">100</param>
+      <param name="Center Frq 2" index="13">5000</param>
+      <param name="Q" index="14">0.125</param>
+      <param name="Overlap" index="15">0.75</param>
+     </params>
+     <controllers/>
+     <editor-pos>399,273</editor-pos>
+     <form-pos>0,0</form-pos>
+    </plugin>
+    <plugin type="LADSPA">
+     <filename>/usr/lib/ladspa/zita-reverbs.so</filename>
+     <index>0</index>
+     <label>zita-reverb</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs/>
+     <params>
+      <param name="Delay" index="4">0.06</param>
+      <param name="Xover" index="5">223.607</param>
+      <param name="RT-low" index="6">2.75</param>
+      <param name="RT-mid" index="7">2.75</param>
+      <param name="Damping" index="8">6000</param>
+      <param name="F1-freq" index="9">159.054</param>
+      <param name="F1-gain" index="10">0</param>
+      <param name="F2-freq" index="11">2514.87</param>
+      <param name="F2-gain" index="12">0</param>
+      <param name="Output mix" index="13">0.3711</param>
+     </params>
+     <controllers/>
+     <editor-pos>0,0</editor-pos>
+     <form-pos>1200,14</form-pos>
+    </plugin>
+   </plugins>
+  </track>
+ </tracks>
+</session>
+

@@ -1,0 +1,324 @@
+<!DOCTYPE qtractorSession>
+<session name="valkyrjar-act-2" version="Qtractor 0.9.1">
+ <properties>
+  <directory>/home/frank/Music/QTR</directory>
+  <description>MIDI file import "Valkyrjar-act2-1.MID" on Apr 05 2018 18:08:17.
+MIDI file import "Val-a2-2.MID" on Apr 06 2018 08:03:03.
+MIDI file import "Var-a2-3.MID" on Apr 06 2018 11:15:12.
+MIDI file import "Val-a2-4.MID" on Apr 06 2018 13:50:59.
+MIDI file import "Val-a2-5.MID" on Apr 06 2018 19:13:57.
+MIDI file import "Val-a2-6.MID" on Apr 06 2018 19:47:25.
+MIDI file import "Val-a2-7.MID" on Apr 07 2018 12:59:05.
+MIDI file import "Val-a2-8.MID" on Apr 07 2018 14:57:11.
+MIDI file import "Val-a2-9.MID" on Apr 07 2018 19:04:13.
+MIDI file import "Val-a2-10.MID" on Apr 08 2018 08:57:38.
+MIDI file import "Val-a2-11.MID" on Apr 08 2018 09:27:04.
+</description>
+  <sample-rate>44100</sample-rate>
+  <tempo>120</tempo>
+  <ticks-per-beat>960</ticks-per-beat>
+  <beats-per-bar>4</beats-per-bar>
+  <beat-divisor>2</beat-divisor>
+ </properties>
+ <state>
+  <loop-start>0</loop-start>
+  <loop-end>0</loop-end>
+  <punch-in>0</punch-in>
+  <punch-out>0</punch-out>
+ </state>
+ <files>
+  <audio-list>
+   <file name="valkyrjar_act_2-Track_2-1.wav">valkyrjar_act_2-Track_2-1.wav</file>
+   <file name="078200.wav">../WAV/078200.wav</file>
+  </audio-list>
+  <midi-list>
+   <file name="Valkyrjar-act2-1.MID">../MIDI/Valkyrjar-act2-1.MID</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-1.mid">valkyrjar_act_2-Valkyrjar_act2_1-1.mid</file>
+   <file name="Val-a2-2.MID">../MIDI/Val-a2-2.MID</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-2.mid">valkyrjar_act_2-Valkyrjar_act2_1-2.mid</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-3.mid">valkyrjar_act_2-Valkyrjar_act2_1-3.mid</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-4.mid">valkyrjar_act_2-Valkyrjar_act2_1-4.mid</file>
+   <file name="Var-a2-3.MID">../MIDI/Var-a2-3.MID</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-5.mid">valkyrjar_act_2-Valkyrjar_act2_1-5.mid</file>
+   <file name="Val-a2-4.MID">../MIDI/Val-a2-4.MID</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-6.mid">valkyrjar_act_2-Valkyrjar_act2_1-6.mid</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-7.mid">valkyrjar_act_2-Valkyrjar_act2_1-7.mid</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-8.mid">valkyrjar_act_2-Valkyrjar_act2_1-8.mid</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-9.mid">valkyrjar_act_2-Valkyrjar_act2_1-9.mid</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-10.mid">valkyrjar_act_2-Valkyrjar_act2_1-10.mid</file>
+   <file name="Val-a2-5.MID">../MIDI/Val-a2-5.MID</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-11.mid">valkyrjar_act_2-Valkyrjar_act2_1-11.mid</file>
+   <file name="Val-a2-6.MID">../MIDI/Val-a2-6.MID</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-12.mid">valkyrjar_act_2-Valkyrjar_act2_1-12.mid</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-13.mid">valkyrjar_act_2-Valkyrjar_act2_1-13.mid</file>
+   <file name="Val-a2-7.MID">../MIDI/Val-a2-7.MID</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-14.mid">valkyrjar_act_2-Valkyrjar_act2_1-14.mid</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-15.mid">valkyrjar_act_2-Valkyrjar_act2_1-15.mid</file>
+   <file name="Val-a2-8.MID">../MIDI/Val-a2-8.MID</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-16.mid">valkyrjar_act_2-Valkyrjar_act2_1-16.mid</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-17.mid">valkyrjar_act_2-Valkyrjar_act2_1-17.mid</file>
+   <file name="Val-a2-9.MID">../MIDI/Val-a2-9.MID</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-18.mid">valkyrjar_act_2-Valkyrjar_act2_1-18.mid</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-19.mid">valkyrjar_act_2-Valkyrjar_act2_1-19.mid</file>
+   <file name="Val-a2-10.MID">../MIDI/Val-a2-10.MID</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-20.mid">valkyrjar_act_2-Valkyrjar_act2_1-20.mid</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-21.mid">valkyrjar_act_2-Valkyrjar_act2_1-21.mid</file>
+   <file name="Val-a2-11.MID">../MIDI/Val-a2-11.MID</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-22.mid">valkyrjar_act_2-Valkyrjar_act2_1-22.mid</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-23.mid">valkyrjar_act_2-Valkyrjar_act2_1-23.mid</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-24.mid">valkyrjar_act_2-Valkyrjar_act2_1-24.mid</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-25.mid">valkyrjar_act_2-Valkyrjar_act2_1-25.mid</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-26.mid">valkyrjar_act_2-Valkyrjar_act2_1-26.mid</file>
+   <file name="valkyrjar_act_2-Valkyrjar_act2_1-27.mid">valkyrjar_act_2-Valkyrjar_act2_1-27.mid</file>
+  </midi-list>
+ </files>
+ <devices>
+  <audio-engine>
+   <audio-control>
+    <transport-mode>duplex</transport-mode>
+    <timebase>1</timebase>
+   </audio-control>
+   <audio-bus name="Master" mode="duplex">
+    <monitor>1</monitor>
+    <channels>2</channels>
+    <auto-connect>1</auto-connect>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins/>
+    <input-connects>
+     <connect index="0">
+      <client>qsynth</client>
+      <port>l_00</port>
+     </connect>
+     <connect index="1">
+      <client>qsynth</client>
+      <port>r_00</port>
+     </connect>
+    </input-connects>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <plugin type="LV2">
+      <filename>http://calf.sourceforge.net/plugins/Limiter</filename>
+      <index>0</index>
+      <label>Calf_Limiter</label>
+      <preset></preset>
+      <direct-access-param>-1</direct-access-param>
+      <activated>1</activated>
+      <configs/>
+      <params>
+       <param name="Bypass" index="4">0</param>
+       <param name="Input Gain" index="5">1.18099</param>
+       <param name="Output Gain" index="6">1</param>
+       <param name="Limit" index="15">1</param>
+       <param name="Lookahead" index="16">5</param>
+       <param name="Release" index="17">50</param>
+       <param name="ASC" index="19">1</param>
+       <param name="ASC Level" index="21">0.5</param>
+       <param name="Oversampling" index="22">1</param>
+      </params>
+      <controllers/>
+      <editor-pos>0,0</editor-pos>
+      <form-pos>0,0</form-pos>
+     </plugin>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>system</client>
+      <port>playback_1</port>
+     </connect>
+     <connect index="1">
+      <client>system</client>
+      <port>playback_2</port>
+     </connect>
+    </output-connects>
+   </audio-bus>
+  </audio-engine>
+  <midi-engine>
+   <midi-control>
+    <mmc-mode>duplex</mmc-mode>
+    <mmc-device>127</mmc-device>
+    <spp-mode>duplex</spp-mode>
+    <clock-mode>none</clock-mode>
+   </midi-control>
+   <midi-bus name="Master" mode="duplex">
+    <monitor>0</monitor>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </input-plugins>
+    <input-connects/>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <bank>0</bank>
+     <program>0</program>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>129:FLUID Synth (17004)</client>
+      <port>0:Synth input port (17004:0)</port>
+     </connect>
+    </output-connects>
+    <midi-map>
+     <midi-patch channel="4">
+      <midi-bank>0</midi-bank>
+      <midi-program>0</midi-program>
+     </midi-patch>
+     <midi-patch channel="5">
+      <midi-bank>0</midi-bank>
+      <midi-program>49</midi-program>
+     </midi-patch>
+     <midi-patch channel="6">
+      <midi-bank>0</midi-bank>
+      <midi-program>32</midi-program>
+     </midi-patch>
+     <midi-patch channel="0">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+      <midi-bank>0</midi-bank>
+      <midi-program>0</midi-program>
+     </midi-patch>
+    </midi-map>
+   </midi-bus>
+  </midi-engine>
+ </devices>
+ <tracks>
+  <view>
+   <pixels-per-beat>32</pixels-per-beat>
+   <horizontal-zoom>110</horizontal-zoom>
+   <vertical-zoom>100</vertical-zoom>
+   <snap-per-beat>0</snap-per-beat>
+   <edit-head>216365632</edit-head>
+   <edit-tail>236681168</edit-tail>
+  </view>
+  <track type="midi" name="Valkyrjar-act2-1">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+    <midi-omni>0</midi-omni>
+    <midi-channel>0</midi-channel>
+    <midi-bank>0</midi-bank>
+    <midi-program>0</midi-program>
+   </properties>
+   <state>
+    <mute>1</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>387</height>
+    <background-color>#99ccff</background-color>
+    <foreground-color>#4c667f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="Valkyrjar-act2-1">
+     <properties>
+      <name>Valkyrjar-act2-1</name>
+      <start>0</start>
+      <offset>0</offset>
+      <length>238141872</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>valkyrjar_act_2-Valkyrjar_act2_1-27.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>9</revision>
+      <editor-pos>0,0</editor-pos>
+      <editor-size>1598,847</editor-size>
+     </midi-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <bank>0</bank>
+    <program>0</program>
+    <audio-output-bus-name></audio-output-bus-name>
+    <audio-output-bus>0</audio-output-bus>
+    <audio-output-auto-connect>1</audio-output-auto-connect>
+   </plugins>
+  </track>
+  <track type="audio" name="Track 2">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>1</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>161</height>
+    <background-color>#99ffff</background-color>
+    <foreground-color>#4c7f7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="valkyrjar_act_2-Track_2-1">
+     <properties>
+      <name>valkyrjar_act_2-Track_2-1</name>
+      <start>0</start>
+      <offset>1034</offset>
+      <length>238142480</length>
+      <gain>1.00481</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>valkyrjar_act_2-Track_2-1.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <plugin type="LV2">
+     <filename>http://calf.sourceforge.net/plugins/Reverb</filename>
+     <index>0</index>
+     <label>Calf_Reverb</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs/>
+     <params>
+      <param name="Decay time" index="7">1.5</param>
+      <param name="High Frq Damp" index="8">15380.5</param>
+      <param name="Room size" index="9">2</param>
+      <param name="Diffusion" index="10">0.5</param>
+      <param name="Wet Amount" index="11">0.221288</param>
+      <param name="Dry Amount" index="12">1</param>
+      <param name="Pre Delay" index="13">0</param>
+      <param name="Bass Cut" index="14">300</param>
+      <param name="Treble Cut" index="15">20000</param>
+     </params>
+     <controllers/>
+     <editor-pos>0,0</editor-pos>
+     <form-pos>0,0</form-pos>
+    </plugin>
+   </plugins>
+  </track>
+ </tracks>
+</session>
+

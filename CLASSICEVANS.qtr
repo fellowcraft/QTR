@@ -1,0 +1,354 @@
+<!DOCTYPE qtractorSession>
+<session version="Qtractor 0.8.4" name="CLASSICEVANS">
+ <properties>
+  <directory>/home/frank/Music/QTR</directory>
+  <description>MIDI file import "CLASSICEVANS.MID" on Dec 05 2017 20:28:55.
+</description>
+  <sample-rate>44100</sample-rate>
+  <tempo>120</tempo>
+  <ticks-per-beat>960</ticks-per-beat>
+  <beats-per-bar>4</beats-per-bar>
+  <beat-divisor>2</beat-divisor>
+ </properties>
+ <state>
+  <loop-start>0</loop-start>
+  <loop-end>0</loop-end>
+  <punch-in>0</punch-in>
+  <punch-out>0</punch-out>
+ </state>
+ <files>
+  <audio-list>
+   <file name="CLASSICEVANS-Track_2-1.flac">CLASSICEVANS-Track_2-1.flac</file>
+   <file name="076300.flac">../FLAC/076300.flac</file>
+   <file name="CLASSICEVANS-Track_2-2.flac">CLASSICEVANS-Track_2-2.flac</file>
+   <file name="CLASSICEVANS-Track_2-3.flac">CLASSICEVANS-Track_2-3.flac</file>
+   <file name="076301.flac">../FLAC/076301.flac</file>
+   <file name="CLASSICEVANS-Track_2-5.flac">CLASSICEVANS-Track_2-5.flac</file>
+   <file name="CLASSICEVANS-Track_2-6.flac">CLASSICEVANS-Track_2-6.flac</file>
+   <file name="CLASSICEVANS-Track_2-9.flac">CLASSICEVANS-Track_2-9.flac</file>
+  </audio-list>
+  <midi-list>
+   <file name="CLASSICEVANS.MID">../MIDI/CLASSICEVANS.MID</file>
+   <file name="CLASSICEVANS-Track_1-1.mid">CLASSICEVANS-Track_1-1.mid</file>
+   <file name="763.mid">../MIDI/763.mid</file>
+  </midi-list>
+ </files>
+ <devices>
+  <audio-engine>
+   <audio-control>
+    <transport-mode>duplex</transport-mode>
+    <timebase>1</timebase>
+   </audio-control>
+   <audio-bus name="Master" mode="duplex">
+    <monitor>0</monitor>
+    <channels>2</channels>
+    <auto-connect>1</auto-connect>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins/>
+    <input-connects>
+     <connect index="0">
+      <client>qsynth</client>
+      <port>l_00</port>
+     </connect>
+     <connect index="0">
+      <client>Qsynth2</client>
+      <port>l_00</port>
+     </connect>
+     <connect index="1">
+      <client>qsynth</client>
+      <port>r_00</port>
+     </connect>
+     <connect index="1">
+      <client>Qsynth2</client>
+      <port>r_00</port>
+     </connect>
+    </input-connects>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <plugin type="LV2">
+      <filename>http://calf.sourceforge.net/plugins/Limiter</filename>
+      <index>0</index>
+      <label>Calf_Limiter</label>
+      <preset></preset>
+      <direct-access-param>-1</direct-access-param>
+      <activated>1</activated>
+      <configs/>
+      <params>
+       <param name="Bypass" index="4">0</param>
+       <param name="Input Gain" index="5">1</param>
+       <param name="Output Gain" index="6">1</param>
+       <param name="Limit" index="15">1</param>
+       <param name="Lookahead" index="16">5</param>
+       <param name="Release" index="17">50</param>
+       <param name="ASC" index="19">1</param>
+       <param name="ASC Level" index="21">0.5</param>
+       <param name="Oversampling" index="22">1</param>
+      </params>
+      <controllers/>
+      <editor-pos>1280,14</editor-pos>
+      <form-pos>0,0</form-pos>
+     </plugin>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>system</client>
+      <port>playback_1</port>
+     </connect>
+     <connect index="1">
+      <client>system</client>
+      <port>playback_2</port>
+     </connect>
+    </output-connects>
+   </audio-bus>
+  </audio-engine>
+  <midi-engine>
+   <midi-control>
+    <mmc-mode>duplex</mmc-mode>
+    <mmc-device>127</mmc-device>
+    <spp-mode>duplex</spp-mode>
+    <clock-mode>none</clock-mode>
+   </midi-control>
+   <midi-bus name="Master" mode="duplex">
+    <monitor>0</monitor>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </input-plugins>
+    <input-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+    </input-connects>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <bank>0</bank>
+     <program>0</program>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+     <connect index="0">
+      <client>131:FLUID Synth (Qsynth2)</client>
+      <port>0:Synth input port (Qsynth2:0)</port>
+     </connect>
+    </output-connects>
+    <midi-map>
+     <midi-patch channel="6">
+      <midi-bank>0</midi-bank>
+      <midi-program>32</midi-program>
+     </midi-patch>
+     <midi-patch channel="4">
+      <midi-bank>768</midi-bank>
+      <midi-program>0</midi-program>
+     </midi-patch>
+     <midi-patch channel="5">
+      <midi-bank>0</midi-bank>
+      <midi-program>49</midi-program>
+     </midi-patch>
+     <midi-patch channel="0">
+      <midi-bank>768</midi-bank>
+      <midi-program>0</midi-program>
+     </midi-patch>
+     <midi-patch channel="1">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+     </midi-patch>
+    </midi-map>
+   </midi-bus>
+   <midi-bus name="Master2" mode="duplex">
+    <monitor>0</monitor>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </input-plugins>
+    <input-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+    </input-connects>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <bank>768</bank>
+     <program>0</program>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+     <connect index="0">
+      <client>130:FLUID Synth (3069)</client>
+      <port>0:Synth input port (3069:0)</port>
+     </connect>
+    </output-connects>
+    <midi-map>
+     <midi-patch channel="0">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+      <midi-bank>768</midi-bank>
+      <midi-program>0</midi-program>
+     </midi-patch>
+     <midi-patch channel="1">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+     </midi-patch>
+    </midi-map>
+   </midi-bus>
+  </midi-engine>
+ </devices>
+ <tracks>
+  <view>
+   <pixels-per-beat>32</pixels-per-beat>
+   <horizontal-zoom>60</horizontal-zoom>
+   <vertical-zoom>100</vertical-zoom>
+   <snap-per-beat>0</snap-per-beat>
+   <edit-head>29859</edit-head>
+   <edit-tail>18787290</edit-tail>
+  </view>
+  <track name="Track 1" type="midi">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+    <midi-omni>0</midi-omni>
+    <midi-channel>1</midi-channel>
+    <midi-bank-sel-method>0</midi-bank-sel-method>
+    <midi-bank>256</midi-bank>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>276</height>
+    <background-color>#ccffff</background-color>
+    <foreground-color>#667f7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="CLASSICEVANS">
+     <properties>
+      <name>CLASSICEVANS</name>
+      <start>0</start>
+      <offset>190870</offset>
+      <length>20177588</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>CLASSICEVANS-Track_1-1.mid</filename>
+      <track-channel>4</track-channel>
+      <revision>39</revision>
+      <editor-pos>800,14</editor-pos>
+      <editor-size>396,868</editor-size>
+     </midi-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <bank>768</bank>
+    <program>0</program>
+    <audio-output-bus-name></audio-output-bus-name>
+    <audio-output-bus>0</audio-output-bus>
+    <audio-output-auto-connect>1</audio-output-auto-connect>
+   </plugins>
+  </track>
+  <track name="Track 2" type="audio">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+   </properties>
+   <state>
+    <mute>1</mute>
+    <solo>0</solo>
+    <record>1</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>272</height>
+    <background-color>#99ffff</background-color>
+    <foreground-color>#4c7f7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="Track_2-9">
+     <properties>
+      <name>Track_2-9</name>
+      <start>0</start>
+      <offset>253</offset>
+      <length>18780422</length>
+      <gain>2.17194</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>CLASSICEVANS-Track_2-9.flac</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <plugin type="LV2">
+     <filename>http://calf.sourceforge.net/plugins/Reverb</filename>
+     <index>0</index>
+     <label>Calf_Reverb</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs/>
+     <params>
+      <param name="Decay time" index="7">1.35525</param>
+      <param name="High Frq Damp" index="8">5000</param>
+      <param name="Room size" index="9">0</param>
+      <param name="Diffusion" index="10">0.5</param>
+      <param name="Wet Amount" index="11">0.0760979</param>
+      <param name="Dry Amount" index="12">0.885154</param>
+      <param name="Pre Delay" index="13">0</param>
+      <param name="Bass Cut" index="14">300</param>
+      <param name="Treble Cut" index="15">5000</param>
+      <param name="Active" index="16">1</param>
+      <param name="Input Gain" index="17">1</param>
+      <param name="Output Gain" index="18">1</param>
+     </params>
+     <controllers/>
+     <editor-pos>0,0</editor-pos>
+     <form-pos>0,0</form-pos>
+    </plugin>
+   </plugins>
+  </track>
+ </tracks>
+</session>
+

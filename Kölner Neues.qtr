@@ -1,0 +1,1927 @@
+<!DOCTYPE qtractorSession>
+<session version="Qtractor 0.8.4" name="asdf">
+ <properties>
+  <directory>/home/frank/qtractor</directory>
+  <description>Audio file import "074700.wav" on Oct 31 2017 14:10:55.
+Audio file import "ZOOM0001.WAV" on Nov 04 2017 15:04:24.
+Audio file import "075102.flac" on Nov 05 2017 10:14:20.
+</description>
+  <sample-rate>44100</sample-rate>
+  <tempo>120</tempo>
+  <ticks-per-beat>960</ticks-per-beat>
+  <beats-per-bar>4</beats-per-bar>
+  <beat-divisor>2</beat-divisor>
+ </properties>
+ <state>
+  <loop-start>0</loop-start>
+  <loop-end>0</loop-end>
+  <punch-in>0</punch-in>
+  <punch-out>0</punch-out>
+ </state>
+ <files>
+  <audio-list>
+   <file name="asdf-Track_4-3.wav">asdf-Track_4-3.wav</file>
+   <file name="074700.wav">074700.wav</file>
+   <file name="074700.wav">../Music/WAV/074700.wav</file>
+   <file name="asdf-Track_4-4.wav">asdf-Track_4-4.wav</file>
+   <file name="asdf-Track_4-9.wav">asdf-Track_4-9.wav</file>
+   <file name="asdf-Track_4-2.wav">asdf-Track_4-2.wav</file>
+   <file name="074900.wav">../Music/WAV/074900.wav</file>
+   <file name="asdf-Track_4-5.wav">asdf-Track_4-5.wav</file>
+   <file name="074901.wav">../Music/WAV/074901.wav</file>
+   <file name="asdf-Track_4-7.wav">asdf-Track_4-7.wav</file>
+   <file name="075000.wav">../Music/WAV/075000.wav</file>
+   <file name="asdf-Track_4-1.wav">asdf-Track_4-1.wav</file>
+   <file name="asdf-Track_4-6.wav">asdf-Track_4-6.wav</file>
+   <file name="asdf-Track_5-2.wav">asdf-Track_5-2.wav</file>
+   <file name="asdf-Track_6-1.wav">asdf-Track_6-1.wav</file>
+   <file name="asdf-Track_6-3.wav">asdf-Track_6-3.wav</file>
+   <file name="asdf-Track_5-4.wav">asdf-Track_5-4.wav</file>
+   <file name="075100.wav">../Music/WAV/075100.wav</file>
+   <file name="ZOOM0001.WAV">../Music/ZOOM0001.WAV</file>
+   <file name="075101.wav">../Music/WAV/075101.wav</file>
+   <file name="075102.wav">../Music/WAV/075102.wav</file>
+   <file name="075102.flac">../Music/FLAC/075102.flac</file>
+   <file name="asdf-Rhodes-1.flac">asdf-Rhodes-1.flac</file>
+   <file name="075200.flac">../Music/FLAC/075200.flac</file>
+   <file name="asdf-Rhodes-2.flac">asdf-Rhodes-2.flac</file>
+   <file name="asdf-Rhodes-3.flac">asdf-Rhodes-3.flac</file>
+   <file name="asdf-Rhodes-5.flac">asdf-Rhodes-5.flac</file>
+   <file name="asdf-MonoAMsynth-1.flac">asdf-MonoAMsynth-1.flac</file>
+   <file name="asdf-MonoAMsynth-2.flac">asdf-MonoAMsynth-2.flac</file>
+   <file name="075300.flac">../Music/FLAC/075300.flac</file>
+   <file name="ZOOM0003lfoyd.WAV">../Music/WAV/ZOOM0003lfoyd.WAV</file>
+   <file name="075301.flac">../Music/FLAC/075301.flac</file>
+   <file name="ZOOM0002.WAV">../Music/WAV/ZOOM0002.WAV</file>
+   <file name="asdf-strings-1.flac">asdf-strings-1.flac</file>
+   <file name="asdf-strings-2.flac">asdf-strings-2.flac</file>
+   <file name="asdf-strings-3.flac">asdf-strings-3.flac</file>
+   <file name="asdf-strings-4.flac">asdf-strings-4.flac</file>
+   <file name="075201.flac">../Music/FLAC/075201.flac</file>
+   <file name="asdf-RhodesALT_Organ-1.flac">asdf-RhodesALT_Organ-1.flac</file>
+   <file name="asdf-RhodesALT_Organ-2.flac">asdf-RhodesALT_Organ-2.flac</file>
+   <file name="asdf-RhodesALT_Organ-3.flac">asdf-RhodesALT_Organ-3.flac</file>
+   <file name="asdf-StringALT_audio-1.flac">asdf-StringALT_audio-1.flac</file>
+   <file name="asdf-StringALT_audio-2.flac">asdf-StringALT_audio-2.flac</file>
+   <file name="075202.flac">../Music/FLAC/075202.flac</file>
+  </audio-list>
+  <midi-list>
+   <file name="asdf-Track_1-1.mid">asdf-Track_1-1.mid</file>
+   <file name="asdf-Track_2-4.mid">asdf-Track_2-4.mid</file>
+   <file name="asdf-Track_2-5.mid">asdf-Track_2-5.mid</file>
+   <file name="asdf-Track_2-8.mid">asdf-Track_2-8.mid</file>
+   <file name="asdf-Track_2-9.mid">asdf-Track_2-9.mid</file>
+   <file name="asdf-Track_2-11.mid">asdf-Track_2-11.mid</file>
+   <file name="asdf-Track_2-12.mid">asdf-Track_2-12.mid</file>
+   <file name="asdf-Track_2-7.mid">asdf-Track_2-7.mid</file>
+   <file name="asdf-Track_2-13.mid">asdf-Track_2-13.mid</file>
+   <file name="asdf-Track_2-6.mid">asdf-Track_2-6.mid</file>
+   <file name="asdf-Track_2-14.mid">asdf-Track_2-14.mid</file>
+   <file name="asdf-Track_2-15.mid">asdf-Track_2-15.mid</file>
+   <file name="asdf-Track_1-10.mid">asdf-Track_1-10.mid</file>
+   <file name="asdf-Track_2-16.mid">asdf-Track_2-16.mid</file>
+   <file name="asdf-Track_2-17.mid">asdf-Track_2-17.mid</file>
+   <file name="asdf-Track_1-15.mid">asdf-Track_1-15.mid</file>
+   <file name="asdf-Track_1-16.mid">asdf-Track_1-16.mid</file>
+   <file name="asdf-Track_2-18.mid">asdf-Track_2-18.mid</file>
+   <file name="asdf-Track_2-19.mid">asdf-Track_2-19.mid</file>
+   <file name="asdf-Track_3-1.mid">asdf-Track_3-1.mid</file>
+   <file name="asdf-Track_2-20.mid">asdf-Track_2-20.mid</file>
+   <file name="asdf-Track_3-2.mid">asdf-Track_3-2.mid</file>
+   <file name="asdf-Track_2-21.mid">asdf-Track_2-21.mid</file>
+   <file name="asdf-Track_2-22.mid">asdf-Track_2-22.mid</file>
+   <file name="asdf-Track_3-3.mid">asdf-Track_3-3.mid</file>
+   <file name="asdf-Track_2-25.mid">asdf-Track_2-25.mid</file>
+   <file name="asdf-Track_3-5.mid">asdf-Track_3-5.mid</file>
+   <file name="asdf-Track_2-26.mid">asdf-Track_2-26.mid</file>
+   <file name="asdf-Track_3-6.mid">asdf-Track_3-6.mid</file>
+   <file name="asdf-Track_2-27.mid">asdf-Track_2-27.mid</file>
+   <file name="asdf-Track_3-7.mid">asdf-Track_3-7.mid</file>
+   <file name="asdf-Track_2-28.mid">asdf-Track_2-28.mid</file>
+   <file name="asdf-Track_3-8.mid">asdf-Track_3-8.mid</file>
+   <file name="asdf-Track_8-1.mid">asdf-Track_8-1.mid</file>
+   <file name="asdf-Track_8-2.mid">asdf-Track_8-2.mid</file>
+   <file name="asdf-Track_2-23.mid">asdf-Track_2-23.mid</file>
+   <file name="asdf-Track_3-4.mid">asdf-Track_3-4.mid</file>
+   <file name="asdf-Track_8-8.mid">asdf-Track_8-8.mid</file>
+   <file name="asdf-Track_8-3.mid">asdf-Track_8-3.mid</file>
+  </midi-list>
+ </files>
+ <devices>
+  <audio-engine>
+   <audio-control>
+    <transport-mode>duplex</transport-mode>
+    <timebase>1</timebase>
+   </audio-control>
+   <audio-bus name="Master" mode="duplex">
+    <monitor>1</monitor>
+    <channels>2</channels>
+    <auto-connect>1</auto-connect>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins/>
+    <input-connects>
+     <connect index="0">
+      <client>qsynth</client>
+      <port>l_00</port>
+     </connect>
+     <connect index="1">
+      <client>qsynth</client>
+      <port>r_00</port>
+     </connect>
+    </input-connects>
+    <output-gain>0.891251</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <plugin type="LV2">
+      <filename>http://calf.sourceforge.net/plugins/Limiter</filename>
+      <index>0</index>
+      <label>Calf_Limiter</label>
+      <preset></preset>
+      <direct-access-param>-1</direct-access-param>
+      <activated>1</activated>
+      <configs/>
+      <params>
+       <param index="4" name="Bypass">0</param>
+       <param index="5" name="Input Gain">1.18099</param>
+       <param index="6" name="Output Gain">1</param>
+       <param index="15" name="Limit">1</param>
+       <param index="16" name="Lookahead">5</param>
+       <param index="17" name="Release">50</param>
+       <param index="19" name="ASC">1</param>
+       <param index="21" name="ASC Level">0.5</param>
+       <param index="22" name="Oversampling">1</param>
+      </params>
+      <controllers/>
+      <editor-pos>474,362</editor-pos>
+      <form-pos>0,0</form-pos>
+     </plugin>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>system</client>
+      <port>playback_1</port>
+     </connect>
+     <connect index="1">
+      <client>system</client>
+      <port>playback_2</port>
+     </connect>
+    </output-connects>
+   </audio-bus>
+   <audio-bus name="MONO" mode="duplex">
+    <monitor>0</monitor>
+    <channels>1</channels>
+    <auto-connect>1</auto-connect>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins/>
+    <input-connects/>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins/>
+    <output-connects/>
+   </audio-bus>
+  </audio-engine>
+  <midi-engine>
+   <midi-control>
+    <mmc-mode>duplex</mmc-mode>
+    <mmc-device>127</mmc-device>
+    <spp-mode>duplex</spp-mode>
+    <clock-mode>none</clock-mode>
+   </midi-control>
+   <midi-bus name="Master" mode="duplex">
+    <monitor>0</monitor>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins>
+     <plugin type="LV2">
+      <filename>http://gareus.org/oss/lv2/midifilter#velocityscale</filename>
+      <index>0</index>
+      <label>MIDI_Velocity_Adjust</label>
+      <preset></preset>
+      <direct-access-param>-1</direct-access-param>
+      <activated>0</activated>
+      <configs/>
+      <params>
+       <param index="3" name="Channel">0</param>
+       <param index="4" name="Note-on Min">1</param>
+       <param index="5" name="Note-on Max">127</param>
+       <param index="6" name="Note-on Offset">64</param>
+       <param index="7" name="Note-off Min">0</param>
+       <param index="8" name="Note-off Max">127</param>
+       <param index="9" name="Note-off Offset">0</param>
+      </params>
+      <controllers/>
+      <editor-pos>0,0</editor-pos>
+      <form-pos>561,253</form-pos>
+     </plugin>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </input-plugins>
+    <input-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+    </input-connects>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <bank>0</bank>
+     <program>31</program>
+     <plugin type="LV2">
+      <filename>http://gareus.org/oss/lv2/midifilter#midichord</filename>
+      <index>0</index>
+      <label>MIDI_Chord</label>
+      <preset></preset>
+      <direct-access-param>-1</direct-access-param>
+      <activated>0</activated>
+      <configs/>
+      <params>
+       <param index="3" name="Filter Channel">0</param>
+       <param index="4" name="Scale">0</param>
+       <param index="5" name="prime">1</param>
+       <param index="6" name="3rd">1</param>
+       <param index="7" name="5th">1</param>
+       <param index="8" name="6th">0</param>
+       <param index="9" name="7th">0</param>
+       <param index="10" name="octave">1</param>
+       <param index="11" name="9th">0</param>
+       <param index="12" name="11th">0</param>
+       <param index="13" name="13th">0</param>
+       <param index="14" name="bass">0</param>
+      </params>
+      <controllers/>
+      <editor-pos>0,0</editor-pos>
+      <form-pos>0,0</form-pos>
+     </plugin>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+    </output-connects>
+    <midi-map>
+     <midi-patch channel="5">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+     </midi-patch>
+     <midi-patch channel="4">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+     </midi-patch>
+     <midi-patch channel="7">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+     </midi-patch>
+     <midi-patch channel="6">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+     </midi-patch>
+     <midi-patch channel="0">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+     </midi-patch>
+     <midi-patch channel="3">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+     </midi-patch>
+     <midi-patch channel="15">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+      <midi-bank>40</midi-bank>
+      <midi-program>1</midi-program>
+     </midi-patch>
+     <midi-patch channel="9">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+     </midi-patch>
+     <midi-patch channel="8">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+     </midi-patch>
+    </midi-map>
+   </midi-bus>
+   <midi-bus name="Master2" mode="duplex">
+    <monitor>0</monitor>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>1</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+     <audio-outputs/>
+    </input-plugins>
+    <input-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+    </input-connects>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>1</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+     <audio-outputs/>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+    </output-connects>
+    <midi-map>
+     <midi-patch channel="9">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+     </midi-patch>
+    </midi-map>
+   </midi-bus>
+  </midi-engine>
+ </devices>
+ <markers>
+  <marker frame="0">
+   <text>ddd</text>
+   <color>#808080</color>
+  </marker>
+ </markers>
+ <tracks>
+  <view>
+   <pixels-per-beat>32</pixels-per-beat>
+   <horizontal-zoom>10</horizontal-zoom>
+   <vertical-zoom>100</vertical-zoom>
+   <snap-per-beat>0</snap-per-beat>
+   <edit-head>21822610</edit-head>
+   <edit-tail>39021608</edit-tail>
+  </view>
+  <track type="midi" name="Track 1">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+    <midi-omni>0</midi-omni>
+    <midi-channel>1</midi-channel>
+    <midi-bank-sel-method>0</midi-bank-sel-method>
+   </properties>
+   <state>
+    <mute>1</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#ccffff</background-color>
+    <foreground-color>#667f7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="Track_1-15">
+     <properties>
+      <name>Track_1-15</name>
+      <start>0</start>
+      <offset>0</offset>
+      <length>19123964</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_1-16.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>1</revision>
+      <editor-pos>0,0</editor-pos>
+      <editor-size>1600,857</editor-size>
+     </midi-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <bank>0</bank>
+    <program>19</program>
+    <audio-output-bus-name></audio-output-bus-name>
+    <audio-output-bus>0</audio-output-bus>
+    <audio-output-auto-connect>1</audio-output-auto-connect>
+   </plugins>
+  </track>
+  <track type="midi" name="RhodesMIDI">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+    <midi-omni>0</midi-omni>
+    <midi-channel>3</midi-channel>
+    <midi-bank-sel-method>0</midi-bank-sel-method>
+   </properties>
+   <state>
+    <mute>1</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#99ffff</background-color>
+    <foreground-color>#4c7f7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="Track_2-19">
+     <properties>
+      <name>Track_2-19</name>
+      <start>0</start>
+      <offset>0</offset>
+      <length>21584906</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_2-20.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>5</revision>
+      <editor-pos>0,0</editor-pos>
+      <editor-size>1600,857</editor-size>
+     </midi-clip>
+    </clip>
+    <clip name="Track_2-27">
+     <properties>
+      <name>Track_2-27</name>
+      <start>39328240</start>
+      <offset>0</offset>
+      <length>6865888</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_2-28.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>12</revision>
+      <editor-pos>0,0</editor-pos>
+      <editor-size>1600,857</editor-size>
+     </midi-clip>
+    </clip>
+    <clip name="Track_2-27">
+     <properties>
+      <name>Track_2-27</name>
+      <start>46194128</start>
+      <offset>7090476</offset>
+      <length>14141172</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_2-23.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>15</revision>
+      <editor-pos>0,0</editor-pos>
+      <editor-size>1600,857</editor-size>
+     </midi-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <audio-output-bus-name></audio-output-bus-name>
+    <audio-output-bus>0</audio-output-bus>
+    <audio-output-auto-connect>1</audio-output-auto-connect>
+   </plugins>
+  </track>
+  <track type="midi" name="RhodesALT-MIDI">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+    <midi-omni>0</midi-omni>
+    <midi-channel>6</midi-channel>
+    <midi-bank-sel-method>0</midi-bank-sel-method>
+   </properties>
+   <state>
+    <mute>1</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>0.9</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#99ffcc</background-color>
+    <foreground-color>#4c7f66</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="Track_2-21">
+     <properties>
+      <name>Track_2-21</name>
+      <start>21657234</start>
+      <offset>0</offset>
+      <length>17196290</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_2-22.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>7</revision>
+      <editor-pos>0,0</editor-pos>
+      <editor-size>1600,857</editor-size>
+     </midi-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <audio-output-bus-name></audio-output-bus-name>
+    <audio-output-bus>1</audio-output-bus>
+    <audio-output-auto-connect>1</audio-output-auto-connect>
+    <audio-outputs/>
+   </plugins>
+  </track>
+  <track type="midi" name="StringMIDI">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+    <midi-omni>0</midi-omni>
+    <midi-channel>5</midi-channel>
+    <midi-bank-sel-method>0</midi-bank-sel-method>
+   </properties>
+   <state>
+    <mute>1</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#ffccff</background-color>
+    <foreground-color>#7f667f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="Track_3-1">
+     <properties>
+      <name>Track_3-1</name>
+      <start>0</start>
+      <offset>0</offset>
+      <length>21261574</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_3-2.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>3</revision>
+      <editor-pos>0,0</editor-pos>
+      <editor-size>1600,857</editor-size>
+     </midi-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <audio-output-bus-name></audio-output-bus-name>
+    <audio-output-bus>0</audio-output-bus>
+    <audio-output-auto-connect>1</audio-output-auto-connect>
+   </plugins>
+  </track>
+  <track type="midi" name="StringALT-MIDI">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+    <midi-omni>0</midi-omni>
+    <midi-channel>8</midi-channel>
+    <midi-bank-sel-method>0</midi-bank-sel-method>
+   </properties>
+   <state>
+    <mute>1</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#ffcccc</background-color>
+    <foreground-color>#7f6666</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="Track_3-3">
+     <properties>
+      <name>Track_3-3</name>
+      <start>21857062</start>
+      <offset>0</offset>
+      <length>16944898</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_3-4.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>22</revision>
+      <editor-pos>0,0</editor-pos>
+      <editor-size>1600,857</editor-size>
+     </midi-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <audio-output-bus-name></audio-output-bus-name>
+    <audio-output-bus>1</audio-output-bus>
+    <audio-output-auto-connect>1</audio-output-auto-connect>
+    <audio-outputs/>
+   </plugins>
+  </track>
+  <track type="midi" name="Track 4">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+    <midi-omni>0</midi-omni>
+    <midi-channel>4</midi-channel>
+    <midi-bank-sel-method>0</midi-bank-sel-method>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#ccccff</background-color>
+    <foreground-color>#66667f</foreground-color>
+   </view>
+   <controllers/>
+   <clips/>
+   <plugins>
+    <plugin type="LV2">
+     <filename>http://calf.sourceforge.net/plugins/Monosynth</filename>
+     <index>0</index>
+     <label>Calf_Monosynth</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs>
+      <config key="urn:calf:mod_matrix:8,0">None</config>
+      <config key="urn:calf:mod_matrix:2,2">None</config>
+      <config key="urn:calf:mod_matrix:8,3">1</config>
+      <config key="urn:calf:mod_matrix:1,0">None</config>
+      <config key="urn:calf:mod_matrix:6,1">0..1</config>
+      <config key="urn:calf:mod_matrix:3,0">None</config>
+      <config key="urn:calf:mod_matrix:4,4">None</config>
+      <config key="urn:calf:mod_matrix:0,3">1</config>
+      <config key="urn:calf:mod_matrix:3,3">1</config>
+      <config key="urn:calf:mod_matrix:9,1">0..1</config>
+      <config key="urn:calf:mod_matrix:6,3">1</config>
+      <config key="urn:calf:mod_matrix:2,3">1</config>
+      <config key="urn:calf:mod_matrix:1,3">1</config>
+      <config key="urn:calf:mod_matrix:7,2">None</config>
+      <config key="urn:calf:mod_matrix:3,1">0..1</config>
+      <config key="urn:calf:mod_matrix:4,0">None</config>
+      <config key="urn:calf:mod_matrix:8,1">0..1</config>
+      <config key="urn:calf:mod_matrix:6,2">None</config>
+      <config key="urn:calf:mod_matrix:4,1">0..1</config>
+      <config key="urn:calf:mod_matrix:1,4">None</config>
+      <config key="urn:calf:mod_matrix:0,0">None</config>
+      <config key="urn:calf:mod_matrix:0,1">0..1</config>
+      <config key="urn:calf:mod_matrix:0,4">None</config>
+      <config key="urn:calf:mod_matrix:7,1">0..1</config>
+      <config key="urn:calf:mod_matrix:7,0">None</config>
+      <config key="urn:calf:mod_matrix:1,1">0..1</config>
+      <config key="urn:calf:mod_matrix:4,3">1</config>
+      <config key="urn:calf:mod_matrix:3,2">None</config>
+      <config key="urn:calf:mod_matrix:6,4">None</config>
+      <config key="urn:calf:mod_matrix:6,0">None</config>
+      <config key="urn:calf:mod_matrix:9,0">None</config>
+      <config key="urn:calf:mod_matrix:9,3">1</config>
+      <config key="urn:calf:mod_matrix:2,0">None</config>
+      <config key="urn:calf:mod_matrix:7,3">1</config>
+      <config key="urn:calf:mod_matrix:0,2">None</config>
+      <config key="urn:calf:mod_matrix:9,2">None</config>
+      <config key="urn:calf:mod_matrix:5,4">None</config>
+      <config key="urn:calf:mod_matrix:9,4">None</config>
+      <config key="urn:calf:mod_matrix:5,1">0..1</config>
+      <config key="urn:calf:mod_matrix:5,2">None</config>
+      <config key="urn:calf:mod_matrix:3,4">None</config>
+      <config key="urn:calf:mod_matrix:8,2">None</config>
+      <config key="urn:calf:mod_matrix:7,4">None</config>
+      <config key="urn:calf:mod_matrix:1,2">None</config>
+      <config key="urn:calf:mod_matrix:8,4">None</config>
+      <config key="urn:calf:mod_matrix:2,1">0..1</config>
+      <config key="urn:calf:mod_matrix:4,2">None</config>
+      <config key="urn:calf:mod_matrix:2,4">None</config>
+      <config key="urn:calf:mod_matrix:5,0">None</config>
+      <config key="urn:calf:mod_matrix:5,3">1</config>
+     </configs>
+     <params>
+      <param index="2" name="Osc1 Wave">0</param>
+      <param index="3" name="Osc2 Wave">1</param>
+      <param index="4" name="Osc1 PW">0</param>
+      <param index="5" name="Osc2 PW">0</param>
+      <param index="6" name="O1&lt;>2 Detune">10</param>
+      <param index="7" name="Osc2 Transpose">12</param>
+      <param index="8" name="Phase mode">0</param>
+      <param index="9" name="O1&lt;>2 Mix">0.5</param>
+      <param index="10" name="Filter">1</param>
+      <param index="11" name="Cutoff">33</param>
+      <param index="12" name="Resonance">3</param>
+      <param index="13" name="Separation">0</param>
+      <param index="14" name="Env->Cutoff">8000</param>
+      <param index="15" name="Env->Res">1</param>
+      <param index="16" name="Env->Amp">0</param>
+      <param index="17" name="EG1 Attack">1</param>
+      <param index="18" name="EG1 Decay">350</param>
+      <param index="19" name="EG1 Sustain">0.5</param>
+      <param index="20" name="EG1 Fade">0</param>
+      <param index="21" name="EG1 Release">100</param>
+      <param index="22" name="Key Follow">0</param>
+      <param index="23" name="Legato Mode">0</param>
+      <param index="24" name="Portamento">1</param>
+      <param index="25" name="Vel->Filter">0.5</param>
+      <param index="26" name="Vel->Amp">0</param>
+      <param index="27" name="Volume">0.5</param>
+      <param index="28" name="PBend Range">200</param>
+      <param index="29" name="LFO1 Rate">5</param>
+      <param index="30" name="LFO1 Delay">0.5</param>
+      <param index="31" name="LFO1->Filter">0</param>
+      <param index="32" name="LFO1->Pitch">100</param>
+      <param index="33" name="LFO1->PW">0</param>
+      <param index="34" name="ModWheel->LFO1">1</param>
+      <param index="35" name="Scale Detune">1</param>
+      <param index="36" name="EG2->Cutoff">0</param>
+      <param index="37" name="EG2->Res">0.3</param>
+      <param index="38" name="EG2->Amp">1</param>
+      <param index="39" name="EG2 Attack">1</param>
+      <param index="40" name="EG2 Decay">100</param>
+      <param index="41" name="EG2 Sustain">0.5</param>
+      <param index="42" name="EG2 Fade">0</param>
+      <param index="43" name="Release">50</param>
+      <param index="44" name="Osc1 Stretch">1</param>
+      <param index="45" name="Osc1 Window">0</param>
+      <param index="46" name="LFO1 Trigger Mode">0</param>
+      <param index="47" name="LFO2 Trigger Mode">0</param>
+      <param index="48" name="LFO1 Rate">5</param>
+      <param index="49" name="LFO1 Delay">0.5</param>
+      <param index="50" name="Osc2 Unison">0</param>
+      <param index="51" name="Osc2 Unison Detune">2</param>
+      <param index="52" name="Osc1 Transpose">0</param>
+     </params>
+     <controllers/>
+     <editor-pos>252,222</editor-pos>
+     <form-pos>0,0</form-pos>
+    </plugin>
+    <audio-output-bus-name></audio-output-bus-name>
+    <audio-output-bus>0</audio-output-bus>
+    <audio-output-auto-connect>1</audio-output-auto-connect>
+   </plugins>
+  </track>
+  <track type="audio" name="strings">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+   </properties>
+   <state>
+    <mute>1</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>0.891251</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#99ccff</background-color>
+    <foreground-color>#4c667f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="Track_5-4">
+     <properties>
+      <name>Track_5-4</name>
+      <start>0</start>
+      <offset>253</offset>
+      <length>21119766</length>
+      <gain>5.45134</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>asdf-Track_5-4.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="strings-4">
+     <properties>
+      <name>strings-4</name>
+      <start>22435874</start>
+      <offset>252</offset>
+      <length>16334846</length>
+      <gain>6.36148</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>asdf-strings-4.flac</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <plugin type="LV2">
+     <filename>http://calf.sourceforge.net/plugins/Reverb</filename>
+     <index>0</index>
+     <label>Calf_Reverb</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs/>
+     <params>
+      <param index="7" name="Decay time">1.5</param>
+      <param index="8" name="High Frq Damp">12330.2</param>
+      <param index="9" name="Room size">3</param>
+      <param index="10" name="Diffusion">0.5</param>
+      <param index="11" name="Wet Amount">0.065335</param>
+      <param index="12" name="Dry Amount">0.0984817</param>
+      <param index="13" name="Pre Delay">0</param>
+      <param index="14" name="Bass Cut">300</param>
+      <param index="15" name="Treble Cut">5000</param>
+     </params>
+     <controllers/>
+     <editor-pos>425,330</editor-pos>
+     <form-pos>0,0</form-pos>
+    </plugin>
+   </plugins>
+  </track>
+  <track type="audio" name="Rhodes&#xa;">
+   <properties>
+    <input-bus>MONO</input-bus>
+    <output-bus>Master</output-bus>
+   </properties>
+   <state>
+    <mute>1</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#ff99ff</background-color>
+    <foreground-color>#7f4c7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="Track_6-3">
+     <properties>
+      <name>Track_6-3</name>
+      <start>0</start>
+      <offset>253</offset>
+      <length>21178106</length>
+      <gain>1.06479</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>asdf-Track_6-3.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="Rhodes-1">
+     <properties>
+      <name>Rhodes-1</name>
+      <start>21856374</start>
+      <offset>164938</offset>
+      <length>17091506</length>
+      <gain>1.19827</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>asdf-Rhodes-1.flac</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="Rhodes-5">
+     <properties>
+      <name>Rhodes-5</name>
+      <start>39214548</start>
+      <offset>252</offset>
+      <length>6979580</length>
+      <gain>1.05881</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>asdf-Rhodes-5.flac</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="Rhodes-5">
+     <properties>
+      <name>Rhodes-5</name>
+      <start>46194128</start>
+      <offset>7001128</offset>
+      <length>14043096</length>
+      <gain>1.05881</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>asdf-Rhodes-5.flac</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <plugin type="LADSPA">
+     <filename>/usr/lib/ladspa/tap_autopan.so</filename>
+     <index>0</index>
+     <label>tap_autopan</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs/>
+     <params>
+      <param index="0" name="Frequency [Hz]">0.1</param>
+      <param index="1" name="Depth [%]">61.54</param>
+      <param index="2" name="Gain [dB]">0</param>
+     </params>
+     <controllers/>
+     <editor-pos>0,0</editor-pos>
+     <form-pos>560,309</form-pos>
+    </plugin>
+    <plugin type="LV2">
+     <filename>http://calf.sourceforge.net/plugins/VintageDelay</filename>
+     <index>0</index>
+     <label>Calf_Vintage_Delay</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs/>
+     <params>
+      <param index="4" name="Tempo">120</param>
+      <param index="5" name="Host BPM">120</param>
+      <param index="6" name="Subdivide">4</param>
+      <param index="7" name="Time L">3</param>
+      <param index="8" name="Time R">5</param>
+      <param index="9" name="Feedback">0.56</param>
+      <param index="10" name="Amount">0.502781</param>
+      <param index="11" name="Mix mode">1</param>
+      <param index="12" name="Medium">1</param>
+      <param index="13" name="Dry Amount">1</param>
+      <param index="14" name="Stereo Width">1</param>
+      <param index="15" name="Sync BPM">0</param>
+     </params>
+     <controllers/>
+     <editor-pos>348,349</editor-pos>
+     <form-pos>0,0</form-pos>
+    </plugin>
+   </plugins>
+  </track>
+  <track type="audio" name="RhodesALT-Organ">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#cccccc</background-color>
+    <foreground-color>#666666</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="RhodesALT_Organ-2">
+     <properties>
+      <name>RhodesALT_Organ-2</name>
+      <start>21822610</start>
+      <offset>252</offset>
+      <length>17091070</length>
+      <gain>1.3919</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>asdf-RhodesALT_Organ-2.flac</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <plugin type="LV2">
+     <filename>http://calf.sourceforge.net/plugins/Reverb</filename>
+     <index>0</index>
+     <label>Calf_Reverb</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs/>
+     <params>
+      <param index="7" name="Decay time">1.5</param>
+      <param index="8" name="High Frq Damp">18662.5</param>
+      <param index="9" name="Room size">2</param>
+      <param index="10" name="Diffusion">0.5</param>
+      <param index="11" name="Wet Amount">0.173379</param>
+      <param index="12" name="Dry Amount">1</param>
+      <param index="13" name="Pre Delay">0</param>
+      <param index="14" name="Bass Cut">300</param>
+      <param index="15" name="Treble Cut">5000</param>
+     </params>
+     <controllers/>
+     <editor-pos>422,252</editor-pos>
+     <form-pos>0,0</form-pos>
+    </plugin>
+   </plugins>
+  </track>
+  <track type="audio" name="StringALT-audio">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>1</record>
+    <monitor>0</monitor>
+    <gain>0.00306196</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#99cccc</background-color>
+    <foreground-color>#4c6666</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="StringALT_audio-2">
+     <properties>
+      <name>StringALT_audio-2</name>
+      <start>21822610</start>
+      <offset>252</offset>
+      <length>16952566</length>
+      <gain>3.64859</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>asdf-StringALT_audio-2.flac</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+   </clips>
+   <plugins/>
+  </track>
+  <track type="audio" name="ZOOM0001">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>0.0347936</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#cc99ff</background-color>
+    <foreground-color>#664c7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="ZOOM0001">
+     <properties>
+      <name>ZOOM0001</name>
+      <start>4430672</start>
+      <offset>4430672</offset>
+      <length>16861360</length>
+      <gain>2.05031</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">585702</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../Music/ZOOM0001.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+   </clips>
+   <plugins/>
+  </track>
+  <track type="midi" name="MonoSynth">
+   <properties>
+    <input-bus>Master2</input-bus>
+    <output-bus>Master2</output-bus>
+    <midi-omni>0</midi-omni>
+    <midi-channel>9</midi-channel>
+    <midi-bank-sel-method>0</midi-bank-sel-method>
+   </properties>
+   <state>
+    <mute>1</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#9999ff</background-color>
+    <foreground-color>#4c4c7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>39276564</start>
+      <offset>2053404</offset>
+      <length>730408</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>1</revision>
+      <editor-pos>0,0</editor-pos>
+      <editor-size>1600,857</editor-size>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>40075872</start>
+      <offset>2053408</offset>
+      <length>730408</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>40806280</start>
+      <offset>2053408</offset>
+      <length>730408</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>41536688</start>
+      <offset>2053404</offset>
+      <length>730404</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>42267092</start>
+      <offset>2053408</offset>
+      <length>730408</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>42997500</start>
+      <offset>2053408</offset>
+      <length>730408</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>43727908</start>
+      <offset>2053404</offset>
+      <length>730404</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>44458312</start>
+      <offset>2053408</offset>
+      <length>730408</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>45188720</start>
+      <offset>2053408</offset>
+      <length>730404</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>45919124</start>
+      <offset>2053404</offset>
+      <length>275004</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-8.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>46194128</start>
+      <offset>2419988</offset>
+      <length>363824</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-8.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>46557952</start>
+      <offset>2053408</offset>
+      <length>730408</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>47288360</start>
+      <offset>2053408</offset>
+      <length>730408</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>48018768</start>
+      <offset>2053408</offset>
+      <length>730404</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>49479580</start>
+      <offset>2053408</offset>
+      <length>730408</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>50209988</start>
+      <offset>2053408</offset>
+      <length>730404</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>50940392</start>
+      <offset>2053404</offset>
+      <length>730408</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>51670800</start>
+      <offset>2053404</offset>
+      <length>730428</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-8.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>52401208</start>
+      <offset>2053404</offset>
+      <length>730400</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>53131608</start>
+      <offset>2053408</offset>
+      <length>730408</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>53862016</start>
+      <offset>2053408</offset>
+      <length>730432</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-8.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>54592424</start>
+      <offset>2053404</offset>
+      <length>730404</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>55322828</start>
+      <offset>2053408</offset>
+      <length>730408</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>56053236</start>
+      <offset>2053408</offset>
+      <length>730432</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-8.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>56783644</start>
+      <offset>2053404</offset>
+      <length>730404</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>57527828</start>
+      <offset>2053408</offset>
+      <length>730408</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>58258236</start>
+      <offset>2053408</offset>
+      <length>730408</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>58988644</start>
+      <offset>2053408</offset>
+      <length>730404</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+    <clip name="Track_3-7">
+     <properties>
+      <name>Track_3-7</name>
+      <start>59719048</start>
+      <offset>2053408</offset>
+      <length>730408</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>asdf-Track_8-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <audio-output-bus-name></audio-output-bus-name>
+    <audio-output-bus>1</audio-output-bus>
+    <audio-output-auto-connect>1</audio-output-auto-connect>
+    <audio-outputs/>
+   </plugins>
+  </track>
+  <track type="audio" name="MonoAMsynth">
+   <properties>
+    <input-bus>MONO</input-bus>
+    <output-bus>Master</output-bus>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>0.707946</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#ffffcc</background-color>
+    <foreground-color>#7f7f66</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="MonoAMsynth-2">
+     <properties>
+      <name>MonoAMsynth-2</name>
+      <start>39214548</start>
+      <offset>252</offset>
+      <length>5972840</length>
+      <gain>1.14815</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">96468</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>asdf-MonoAMsynth-2.flac</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="MonoAMsynth-2">
+     <properties>
+      <name>MonoAMsynth-2</name>
+      <start>45326532</start>
+      <offset>6112260</offset>
+      <length>867596</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">420328</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>asdf-MonoAMsynth-2.flac</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="MonoAMsynth-2">
+     <properties>
+      <name>MonoAMsynth-2</name>
+      <start>46194128</start>
+      <offset>7001152</offset>
+      <length>5560736</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">96468</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>asdf-MonoAMsynth-2.flac</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="MonoAMsynth-2">
+     <properties>
+      <name>MonoAMsynth-2</name>
+      <start>51754864</start>
+      <offset>12561884</offset>
+      <length>7793300</length>
+      <gain>1.15474</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">372092</fade-in>
+      <fade-out type="OutQuad">110252</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>asdf-MonoAMsynth-2.flac</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="MonoAMsynth-2">
+     <properties>
+      <name>MonoAMsynth-2</name>
+      <start>59696700</start>
+      <offset>20503748</offset>
+      <length>1152872</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">202880</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>asdf-MonoAMsynth-2.flac</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <plugin type="LADSPA">
+     <filename>/usr/lib/ladspa/tap_autopan.so</filename>
+     <index>0</index>
+     <label>tap_autopan</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs/>
+     <params>
+      <param index="0" name="Frequency [Hz]">0.1</param>
+      <param index="1" name="Depth [%]">91.85</param>
+      <param index="2" name="Gain [dB]">0</param>
+     </params>
+     <controllers/>
+     <editor-pos>0,0</editor-pos>
+     <form-pos>559,283</form-pos>
+    </plugin>
+    <plugin type="LADSPA">
+     <filename>/usr/lib/ladspa/g2reverb.so</filename>
+     <index>0</index>
+     <label>G2reverb</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs/>
+     <params>
+      <param index="4" name="Room size">45</param>
+      <param index="5" name="Reverb time">14.1138</param>
+      <param index="6" name="Input BW">0.5</param>
+      <param index="7" name="Damping">0.1</param>
+      <param index="8" name="Dry sound">-12.608</param>
+      <param index="9" name="Reflections">-20</param>
+      <param index="10" name="Reverb tail">-28</param>
+     </params>
+     <controllers/>
+     <editor-pos>0,0</editor-pos>
+     <form-pos>559,193</form-pos>
+    </plugin>
+   </plugins>
+  </track>
+  <track type="audio" name="Floyd To">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>0.693106</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#ccffcc</background-color>
+    <foreground-color>#667f66</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="ZOOM0003lfoyd">
+     <properties>
+      <name>ZOOM0003lfoyd</name>
+      <start>56075904</start>
+      <offset>1218724</offset>
+      <length>524676</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">12056</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../Music/WAV/ZOOM0003lfoyd.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+   </clips>
+   <plugins/>
+  </track>
+ </tracks>
+</session>
+

@@ -1,0 +1,563 @@
+<!DOCTYPE qtractorSession>
+<session name="tuningUKU" version="Qtractor 0.8.4">
+ <properties>
+  <directory>/home/frank/Music/QTR</directory>
+  <description>Audio file import "ZOOM0004.WAV" on Nov 13 2017 19:41:04.
+</description>
+  <sample-rate>44100</sample-rate>
+  <tempo>120</tempo>
+  <ticks-per-beat>960</ticks-per-beat>
+  <beats-per-bar>4</beats-per-bar>
+  <beat-divisor>2</beat-divisor>
+ </properties>
+ <state>
+  <loop-start>0</loop-start>
+  <loop-end>0</loop-end>
+  <punch-in>0</punch-in>
+  <punch-out>0</punch-out>
+ </state>
+ <files>
+  <audio-list>
+   <file name="ZOOM0004.WAV">../WAV/ZOOM0004.WAV</file>
+  </audio-list>
+  <midi-list/>
+ </files>
+ <devices>
+  <audio-engine>
+   <audio-control>
+    <transport-mode>duplex</transport-mode>
+    <timebase>1</timebase>
+   </audio-control>
+   <audio-bus name="Master" mode="duplex">
+    <monitor>0</monitor>
+    <channels>2</channels>
+    <auto-connect>1</auto-connect>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins/>
+    <input-connects/>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <plugin type="LV2">
+      <filename>http://calf.sourceforge.net/plugins/Limiter</filename>
+      <index>0</index>
+      <label>Calf_Limiter</label>
+      <preset></preset>
+      <direct-access-param>-1</direct-access-param>
+      <activated>1</activated>
+      <configs/>
+      <params>
+       <param name="Bypass" index="4">0</param>
+       <param name="Input Gain" index="5">1.3491</param>
+       <param name="Output Gain" index="6">1</param>
+       <param name="Limit" index="15">1</param>
+       <param name="Lookahead" index="16">5</param>
+       <param name="Release" index="17">50</param>
+       <param name="ASC" index="19">1</param>
+       <param name="ASC Level" index="21">0.5</param>
+       <param name="Oversampling" index="22">1</param>
+      </params>
+      <controllers/>
+      <editor-pos>1428,14</editor-pos>
+      <form-pos>0,0</form-pos>
+     </plugin>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>system</client>
+      <port>playback_1</port>
+     </connect>
+     <connect index="1">
+      <client>system</client>
+      <port>playback_2</port>
+     </connect>
+    </output-connects>
+   </audio-bus>
+  </audio-engine>
+  <midi-engine>
+   <midi-control>
+    <mmc-mode>duplex</mmc-mode>
+    <mmc-device>127</mmc-device>
+    <spp-mode>duplex</spp-mode>
+    <clock-mode>none</clock-mode>
+   </midi-control>
+   <midi-bus name="Master" mode="duplex">
+    <monitor>0</monitor>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </input-plugins>
+    <input-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+    </input-connects>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+    </output-connects>
+   </midi-bus>
+  </midi-engine>
+ </devices>
+ <tracks>
+  <view>
+   <pixels-per-beat>32</pixels-per-beat>
+   <horizontal-zoom>60</horizontal-zoom>
+   <vertical-zoom>100</vertical-zoom>
+   <snap-per-beat>0</snap-per-beat>
+   <edit-head>24382478</edit-head>
+   <edit-tail>24727008</edit-tail>
+  </view>
+  <track name="ZOOM0004" type="audio">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>278</height>
+    <background-color>#ccffff</background-color>
+    <foreground-color>#667f7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="ZOOM0004">
+     <properties>
+      <name>ZOOM0004</name>
+      <start>0</start>
+      <offset>121872</offset>
+      <length>135056</length>
+      <gain>1.00003</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0004.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ZOOM0004">
+     <properties>
+      <name>ZOOM0004</name>
+      <start>135056</start>
+      <offset>357532</offset>
+      <length>2498541</length>
+      <gain>1.00003</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0004.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ZOOM0004">
+     <properties>
+      <name>ZOOM0004</name>
+      <start>2633597</start>
+      <offset>3002153</offset>
+      <length>421706</length>
+      <gain>1.00003</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0004.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ZOOM0004">
+     <properties>
+      <name>ZOOM0004</name>
+      <start>3055303</start>
+      <offset>3525152</offset>
+      <length>146082</length>
+      <gain>1.00003</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0004.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ZOOM0004">
+     <properties>
+      <name>ZOOM0004</name>
+      <start>3201385</start>
+      <offset>3778038</offset>
+      <length>1335403</length>
+      <gain>1.00003</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0004.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ZOOM0004">
+     <properties>
+      <name>ZOOM0004</name>
+      <start>4536788</start>
+      <offset>5198884</offset>
+      <length>120586</length>
+      <gain>1.00003</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0004.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ZOOM0004">
+     <properties>
+      <name>ZOOM0004</name>
+      <start>4657374</start>
+      <offset>5385620</offset>
+      <length>1632618</length>
+      <gain>1.00003</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0004.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ZOOM0004">
+     <properties>
+      <name>ZOOM0004</name>
+      <start>6289992</start>
+      <offset>7053842</offset>
+      <length>82688</length>
+      <gain>1.00003</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0004.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ZOOM0004">
+     <properties>
+      <name>ZOOM0004</name>
+      <start>6372680</start>
+      <offset>7188208</offset>
+      <length>93024</length>
+      <gain>1.00003</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0004.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ZOOM0004">
+     <properties>
+      <name>ZOOM0004</name>
+      <start>6465704</start>
+      <offset>7308794</offset>
+      <length>4126794</length>
+      <gain>1.00003</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0004.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ZOOM0004">
+     <properties>
+      <name>ZOOM0004</name>
+      <start>10592498</start>
+      <offset>11494850</offset>
+      <length>700088</length>
+      <gain>1.00003</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0004.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ZOOM0004">
+     <properties>
+      <name>ZOOM0004</name>
+      <start>11292586</start>
+      <offset>12434730</offset>
+      <length>5386172</length>
+      <gain>1.00003</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0004.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ZOOM0004">
+     <properties>
+      <name>ZOOM0004</name>
+      <start>16678758</start>
+      <offset>17866842</offset>
+      <length>885904</length>
+      <gain>1.00003</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0004.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ZOOM0004">
+     <properties>
+      <name>ZOOM0004</name>
+      <start>17564662</start>
+      <offset>18763770</offset>
+      <length>5440148</length>
+      <gain>1.00003</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0004.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ZOOM0004">
+     <properties>
+      <name>ZOOM0004</name>
+      <start>23004810</start>
+      <offset>24221146</offset>
+      <length>1430494</length>
+      <gain>1.00003</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0004.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ZOOM0004">
+     <properties>
+      <name>ZOOM0004</name>
+      <start>24435304</start>
+      <offset>26079776</offset>
+      <length>4312614</length>
+      <gain>1.00003</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0004.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ZOOM0004">
+     <properties>
+      <name>ZOOM0004</name>
+      <start>29714670</start>
+      <offset>30489778</offset>
+      <length>29860</length>
+      <gain>0.501187</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0004.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <plugin type="LADSPA">
+     <filename>/usr/lib/ladspa/cmt.so</filename>
+     <index>12</index>
+     <label>canyon_delay</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs/>
+     <params>
+      <param name="Left to Right Time (Seconds)" index="4">0.812032</param>
+      <param name="Left to Right Feedback (Percent)" index="5">0.8916</param>
+      <param name="Right to Left Time (Seconds)" index="6">0.264996</param>
+      <param name="Right to Left Feedback (Percent)" index="7">0.8428</param>
+      <param name="Low-Pass Cutoff (Hz)" index="8">4580.08</param>
+     </params>
+     <controllers/>
+     <editor-pos>0,0</editor-pos>
+     <form-pos>158,287</form-pos>
+    </plugin>
+   </plugins>
+  </track>
+  <track name="ZOOM5" type="audio">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>0.359584</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>387</height>
+    <background-color>#99ffff</background-color>
+    <foreground-color>#4c7f7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="ZOOM0004">
+     <properties>
+      <name>ZOOM0004</name>
+      <start>28747918</start>
+      <offset>30392386</offset>
+      <length>309526</length>
+      <gain>0.501187</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">19684</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0004.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <plugin type="LV2">
+     <filename>http://calf.sourceforge.net/plugins/Reverb</filename>
+     <index>0</index>
+     <label>Calf_Reverb</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs/>
+     <params>
+      <param name="Decay time" index="7">4.38535</param>
+      <param name="High Frq Damp" index="8">14027.2</param>
+      <param name="Room size" index="9">3</param>
+      <param name="Diffusion" index="10">0.5</param>
+      <param name="Wet Amount" index="11">0.726986</param>
+      <param name="Dry Amount" index="12">1</param>
+      <param name="Pre Delay" index="13">0</param>
+      <param name="Bass Cut" index="14">300</param>
+      <param name="Treble Cut" index="15">5000</param>
+     </params>
+     <controllers/>
+     <editor-pos>423,336</editor-pos>
+     <form-pos>0,0</form-pos>
+    </plugin>
+   </plugins>
+  </track>
+ </tracks>
+</session>
+

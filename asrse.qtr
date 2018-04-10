@@ -1,0 +1,426 @@
+<!DOCTYPE qtractorSession>
+<session name="asrse" version="Qtractor 0.8.5">
+ <properties>
+  <directory>/home/frank/Music/QTR</directory>
+  <description>MIDI file import "REC_SONG.MID" on Jan. 08 2018 12:40:34.</description>
+  <sample-rate>44100</sample-rate>
+  <tempo>120</tempo>
+  <ticks-per-beat>960</ticks-per-beat>
+  <beats-per-bar>4</beats-per-bar>
+  <beat-divisor>2</beat-divisor>
+ </properties>
+ <state>
+  <loop-start>0</loop-start>
+  <loop-end>0</loop-end>
+  <punch-in>0</punch-in>
+  <punch-out>0</punch-out>
+ </state>
+ <files>
+  <audio-list/>
+  <midi-list>
+   <file name="REC_SONG.MID">../MIDI/CASIO/REC_SONG.MID</file>
+   <file name="REC_SONG-1.mid">REC_SONG-1.mid</file>
+   <file name="test.MID">../MIDI/CASIO/test.MID</file>
+  </midi-list>
+ </files>
+ <devices>
+  <audio-engine>
+   <audio-control>
+    <transport-mode>duplex</transport-mode>
+    <timebase>1</timebase>
+   </audio-control>
+   <audio-bus name="Master" mode="duplex">
+    <monitor>1</monitor>
+    <channels>2</channels>
+    <auto-connect>1</auto-connect>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins/>
+    <input-connects>
+     <connect index="0">
+      <client>qsynth</client>
+      <port>l_00</port>
+     </connect>
+     <connect index="1">
+      <client>qsynth</client>
+      <port>r_00</port>
+     </connect>
+    </input-connects>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins/>
+    <output-connects>
+     <connect index="0">
+      <client>system</client>
+      <port>playback_1</port>
+     </connect>
+     <connect index="1">
+      <client>system</client>
+      <port>playback_2</port>
+     </connect>
+    </output-connects>
+   </audio-bus>
+  </audio-engine>
+  <midi-engine>
+   <midi-control>
+    <mmc-mode>duplex</mmc-mode>
+    <mmc-device>127</mmc-device>
+    <spp-mode>duplex</spp-mode>
+    <clock-mode>none</clock-mode>
+   </midi-control>
+   <midi-bus name="Master" mode="duplex">
+    <monitor>0</monitor>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </input-plugins>
+    <input-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+     <connect index="0">
+      <client>24:i2 mini 32</client>
+      <port>0:i2 mini 32 MIDI 1</port>
+     </connect>
+     <connect index="0">
+      <client>20:nanoKONTROL2</client>
+      <port>0:nanoKONTROL2 MIDI 1</port>
+     </connect>
+    </input-connects>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <bank>0</bank>
+     <program>0</program>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+    </output-connects>
+    <midi-map>
+     <midi-patch channel="4">
+      <midi-bank>0</midi-bank>
+      <midi-program>0</midi-program>
+     </midi-patch>
+     <midi-patch channel="5">
+      <midi-bank>0</midi-bank>
+      <midi-program>49</midi-program>
+     </midi-patch>
+     <midi-patch channel="6">
+      <midi-bank>0</midi-bank>
+      <midi-program>32</midi-program>
+     </midi-patch>
+    </midi-map>
+   </midi-bus>
+   <midi-bus name="Master2" mode="duplex">
+    <monitor>0</monitor>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </input-plugins>
+    <input-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+    </input-connects>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+     <connect index="0">
+      <client>132:FLUID Synth (1937)</client>
+      <port>0:Synth input port (1937:0)</port>
+     </connect>
+    </output-connects>
+    <midi-map>
+     <midi-patch channel="4">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+     </midi-patch>
+    </midi-map>
+   </midi-bus>
+  </midi-engine>
+ </devices>
+ <tracks>
+  <view>
+   <pixels-per-beat>32</pixels-per-beat>
+   <horizontal-zoom>100</horizontal-zoom>
+   <vertical-zoom>100</vertical-zoom>
+   <snap-per-beat>0</snap-per-beat>
+   <edit-head>0</edit-head>
+   <edit-tail>0</edit-tail>
+  </view>
+  <track name="REC_SONG" type="midi">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+    <midi-omni>0</midi-omni>
+    <midi-channel>0</midi-channel>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#ccffff</background-color>
+    <foreground-color>#667f7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="REC_SONG">
+     <properties>
+      <name>REC_SONG</name>
+      <start>0</start>
+      <offset>0</offset>
+      <length>3001786</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>../MIDI/CASIO/REC_SONG.MID</filename>
+      <track-channel>0</track-channel>
+      <revision>0</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <audio-output-bus-name></audio-output-bus-name>
+    <audio-output-bus>0</audio-output-bus>
+    <audio-output-auto-connect>1</audio-output-auto-connect>
+   </plugins>
+  </track>
+  <track name="REC_SONG" type="midi">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master2</output-bus>
+    <midi-omni>0</midi-omni>
+    <midi-channel>4</midi-channel>
+    <midi-bank-sel-method>0</midi-bank-sel-method>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#99ccff</background-color>
+    <foreground-color>#4c667f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="REC_SONG">
+     <properties>
+      <name>REC_SONG</name>
+      <start>0</start>
+      <offset>0</offset>
+      <length>3001786</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>REC_SONG-1.mid</filename>
+      <track-channel>4</track-channel>
+      <revision>3</revision>
+      <editor-pos>0,0</editor-pos>
+      <editor-size>1600,900</editor-size>
+     </midi-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <audio-output-bus-name></audio-output-bus-name>
+    <audio-output-bus>0</audio-output-bus>
+    <audio-output-auto-connect>1</audio-output-auto-connect>
+   </plugins>
+  </track>
+  <track name="REC_SONG" type="midi">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+    <midi-omni>0</midi-omni>
+    <midi-channel>5</midi-channel>
+    <midi-bank>0</midi-bank>
+    <midi-program>49</midi-program>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#ff99ff</background-color>
+    <foreground-color>#7f4c7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="REC_SONG">
+     <properties>
+      <name>REC_SONG</name>
+      <start>0</start>
+      <offset>0</offset>
+      <length>3001786</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>../MIDI/CASIO/REC_SONG.MID</filename>
+      <track-channel>5</track-channel>
+      <revision>0</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <bank>0</bank>
+    <program>49</program>
+    <audio-output-bus-name></audio-output-bus-name>
+    <audio-output-bus>0</audio-output-bus>
+    <audio-output-auto-connect>1</audio-output-auto-connect>
+   </plugins>
+  </track>
+  <track name="REC_SONG" type="midi">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+    <midi-omni>0</midi-omni>
+    <midi-channel>6</midi-channel>
+    <midi-bank>0</midi-bank>
+    <midi-program>32</midi-program>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#cc99ff</background-color>
+    <foreground-color>#664c7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="REC_SONG">
+     <properties>
+      <name>REC_SONG</name>
+      <start>0</start>
+      <offset>0</offset>
+      <length>3001786</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>../MIDI/CASIO/REC_SONG.MID</filename>
+      <track-channel>6</track-channel>
+      <revision>0</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <bank>0</bank>
+    <program>32</program>
+    <audio-output-bus-name></audio-output-bus-name>
+    <audio-output-bus>0</audio-output-bus>
+    <audio-output-auto-connect>1</audio-output-auto-connect>
+   </plugins>
+  </track>
+  <track name="REC_SONG" type="midi">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+    <midi-omni>0</midi-omni>
+    <midi-channel>7</midi-channel>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#9999ff</background-color>
+    <foreground-color>#4c4c7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="REC_SONG">
+     <properties>
+      <name>REC_SONG</name>
+      <start>0</start>
+      <offset>0</offset>
+      <length>3001786</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>../MIDI/CASIO/REC_SONG.MID</filename>
+      <track-channel>7</track-channel>
+      <revision>0</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <audio-output-bus-name></audio-output-bus-name>
+    <audio-output-bus>0</audio-output-bus>
+    <audio-output-auto-connect>1</audio-output-auto-connect>
+   </plugins>
+  </track>
+ </tracks>
+</session>
+

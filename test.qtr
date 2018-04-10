@@ -1,0 +1,411 @@
+<!DOCTYPE qtractorSession>
+<session name="test" version="Qtractor 0.8.4">
+ <properties>
+  <directory>/home/frank/Music/QTR</directory>
+  <description></description>
+  <sample-rate>44100</sample-rate>
+  <tempo>120</tempo>
+  <ticks-per-beat>960</ticks-per-beat>
+  <beats-per-bar>4</beats-per-bar>
+  <beat-divisor>2</beat-divisor>
+ </properties>
+ <state>
+  <loop-start>0</loop-start>
+  <loop-end>231525</loop-end>
+  <punch-in>0</punch-in>
+  <punch-out>0</punch-out>
+ </state>
+ <files>
+  <audio-list/>
+  <midi-list>
+   <file name="test-Track_1-1.mid">test-Track_1-1.mid</file>
+   <file name="test-Track_1-2.mid">test-Track_1-2.mid</file>
+   <file name="test-Track_2-1.mid">test-Track_2-1.mid</file>
+   <file name="test-Track_2-2.mid">test-Track_2-2.mid</file>
+   <file name="test-Track_2-3.mid">test-Track_2-3.mid</file>
+  </midi-list>
+ </files>
+ <devices>
+  <audio-engine>
+   <audio-control>
+    <transport-mode>duplex</transport-mode>
+    <timebase>1</timebase>
+   </audio-control>
+   <audio-bus mode="duplex" name="Master">
+    <monitor>0</monitor>
+    <channels>2</channels>
+    <auto-connect>1</auto-connect>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins/>
+    <input-connects/>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins/>
+    <output-connects>
+     <connect index="0">
+      <client>system</client>
+      <port>playback_1</port>
+     </connect>
+     <connect index="1">
+      <client>system</client>
+      <port>playback_2</port>
+     </connect>
+    </output-connects>
+   </audio-bus>
+  </audio-engine>
+  <midi-engine>
+   <midi-control>
+    <mmc-mode>duplex</mmc-mode>
+    <mmc-device>127</mmc-device>
+    <spp-mode>duplex</spp-mode>
+    <clock-mode>none</clock-mode>
+   </midi-control>
+   <midi-bus mode="duplex" name="Master">
+    <monitor>0</monitor>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </input-plugins>
+    <input-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+     <connect index="0">
+      <client>20:USB AudioDevice</client>
+      <port>0:USB AudioDevice MIDI 1</port>
+     </connect>
+    </input-connects>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <bank>0</bank>
+     <program>57</program>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+    </output-connects>
+    <midi-map>
+     <midi-patch channel="6">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+     </midi-patch>
+     <midi-patch channel="7">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+      <midi-bank>0</midi-bank>
+      <midi-program>19</midi-program>
+     </midi-patch>
+     <midi-patch channel="4">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+     </midi-patch>
+     <midi-patch channel="5">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+     </midi-patch>
+     <midi-patch channel="2">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+     </midi-patch>
+     <midi-patch channel="3">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+     </midi-patch>
+     <midi-patch channel="0">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+      <midi-bank>0</midi-bank>
+      <midi-program>57</midi-program>
+     </midi-patch>
+     <midi-patch channel="1">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+      <midi-bank>0</midi-bank>
+     </midi-patch>
+    </midi-map>
+   </midi-bus>
+  </midi-engine>
+ </devices>
+ <tracks>
+  <view>
+   <pixels-per-beat>32</pixels-per-beat>
+   <horizontal-zoom>100</horizontal-zoom>
+   <vertical-zoom>100</vertical-zoom>
+   <snap-per-beat>0</snap-per-beat>
+   <edit-head>0</edit-head>
+   <edit-tail>231525</edit-tail>
+  </view>
+  <track type="midi" name="Track 1">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+    <midi-omni>0</midi-omni>
+    <midi-channel>6</midi-channel>
+    <midi-bank-sel-method>0</midi-bank-sel-method>
+   </properties>
+   <state>
+    <mute>1</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#ccffff</background-color>
+    <foreground-color>#667f7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="Track_1-1">
+     <properties>
+      <name>Track_1-1</name>
+      <start>0</start>
+      <offset>0</offset>
+      <length>229642</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>test-Track_1-2.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>2</revision>
+      <editor-pos>0,0</editor-pos>
+      <editor-size>1600,857</editor-size>
+     </midi-clip>
+    </clip>
+    <clip name="Track_2-1">
+     <properties>
+      <name>Track_2-1</name>
+      <start>252197</start>
+      <offset>0</offset>
+      <length>8328447</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>test-Track_2-1.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>0</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <bank>0</bank>
+    <program>19</program>
+    <plugin type="LV2">
+     <filename>http://gareus.org/oss/lv2/midifilter#midichord</filename>
+     <index>0</index>
+     <label>MIDI_Chord</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>0</activated>
+     <configs/>
+     <params>
+      <param name="Filter Channel" index="3">0</param>
+      <param name="Scale" index="4">0</param>
+      <param name="prime" index="5">1</param>
+      <param name="3rd" index="6">1</param>
+      <param name="5th" index="7">1</param>
+      <param name="6th" index="8">0</param>
+      <param name="7th" index="9">1</param>
+      <param name="octave" index="10">0</param>
+      <param name="9th" index="11">0</param>
+      <param name="11th" index="12">0</param>
+      <param name="13th" index="13">0</param>
+      <param name="bass" index="14">0</param>
+     </params>
+     <controllers/>
+     <editor-pos>0,0</editor-pos>
+     <form-pos>558,246</form-pos>
+    </plugin>
+    <plugin type="LV2">
+     <filename>http://gareus.org/oss/lv2/midifilter#velocityscale</filename>
+     <index>0</index>
+     <label>MIDI_Velocity_Adjust</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs/>
+     <params>
+      <param name="Channel" index="3">0</param>
+      <param name="Note-on Min" index="4">1</param>
+      <param name="Note-on Max" index="5">127</param>
+      <param name="Note-on Offset" index="6">64</param>
+      <param name="Note-off Min" index="7">0</param>
+      <param name="Note-off Max" index="8">127</param>
+      <param name="Note-off Offset" index="9">0</param>
+     </params>
+     <controllers/>
+     <editor-pos>0,0</editor-pos>
+     <form-pos>559,201</form-pos>
+    </plugin>
+    <plugin type="DSSI">
+     <filename>/usr/lib/dssi/fluidsynth-dssi.so</filename>
+     <index>0</index>
+     <label>FluidSynth-DSSI</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs>
+      <config key="load">/home/frank/Music/SF2/Nice-Keys-Ultimate-V2.3.sf2</config>
+     </configs>
+     <params/>
+     <controllers/>
+     <editor-pos>0,0</editor-pos>
+     <form-pos>0,0</form-pos>
+    </plugin>
+    <plugin type="LV2">
+     <filename>http://calf.sourceforge.net/plugins/Reverb</filename>
+     <index>0</index>
+     <label>Calf_Reverb</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs/>
+     <params>
+      <param name="Decay time" index="7">1.5</param>
+      <param name="High Frq Damp" index="8">5000</param>
+      <param name="Room size" index="9">2</param>
+      <param name="Diffusion" index="10">0.5</param>
+      <param name="Wet Amount" index="11">0.25</param>
+      <param name="Dry Amount" index="12">1</param>
+      <param name="Pre Delay" index="13">0</param>
+      <param name="Bass Cut" index="14">300</param>
+      <param name="Treble Cut" index="15">5000</param>
+     </params>
+     <controllers/>
+     <editor-pos>424,304</editor-pos>
+     <form-pos>0,0</form-pos>
+    </plugin>
+    <audio-output-bus-name></audio-output-bus-name>
+    <audio-output-bus>1</audio-output-bus>
+    <audio-output-auto-connect>1</audio-output-auto-connect>
+    <audio-outputs>
+     <connect index="0">
+      <client>system</client>
+      <port>playback_1</port>
+     </connect>
+     <connect index="1">
+      <client>system</client>
+      <port>playback_2</port>
+     </connect>
+    </audio-outputs>
+   </plugins>
+  </track>
+  <track type="midi" name="Track 2">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+    <midi-omni>0</midi-omni>
+    <midi-channel>0</midi-channel>
+    <midi-bank-sel-method>0</midi-bank-sel-method>
+    <midi-bank>0</midi-bank>
+    <midi-program>57</midi-program>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>1</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>72</height>
+    <background-color>#99ffff</background-color>
+    <foreground-color>#4c7f7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="Track_2-3">
+     <properties>
+      <name>Track_2-3</name>
+      <start>0</start>
+      <offset>0</offset>
+      <length>1762553</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <midi-clip>
+      <filename>test-Track_2-3.mid</filename>
+      <track-channel>1</track-channel>
+      <revision>0</revision>
+      <editor-pos>0,0</editor-pos>
+     </midi-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <bank>0</bank>
+    <program>57</program>
+    <plugin type="DSSI">
+     <filename>/usr/lib/dssi/fluidsynth-dssi.so</filename>
+     <index>0</index>
+     <label>FluidSynth-DSSI</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs>
+      <config key="load">/home/frank/Music/SF2/Nice-Keys-Ultimate-V2.3.sf2</config>
+     </configs>
+     <params/>
+     <controllers/>
+     <editor-pos>0,0</editor-pos>
+     <form-pos>0,0</form-pos>
+    </plugin>
+    <plugin type="LV2">
+     <filename>http://calf.sourceforge.net/plugins/Reverb</filename>
+     <index>0</index>
+     <label>Calf_Reverb</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs/>
+     <params>
+      <param name="Decay time" index="7">1.5</param>
+      <param name="High Frq Damp" index="8">5000</param>
+      <param name="Room size" index="9">3</param>
+      <param name="Diffusion" index="10">0.5</param>
+      <param name="Wet Amount" index="11">0.489032</param>
+      <param name="Dry Amount" index="12">1</param>
+      <param name="Pre Delay" index="13">0</param>
+      <param name="Bass Cut" index="14">300</param>
+      <param name="Treble Cut" index="15">5000</param>
+     </params>
+     <controllers/>
+     <editor-pos>422,252</editor-pos>
+     <form-pos>0,0</form-pos>
+    </plugin>
+    <audio-output-bus-name></audio-output-bus-name>
+    <audio-output-bus>1</audio-output-bus>
+    <audio-output-auto-connect>1</audio-output-auto-connect>
+    <audio-outputs>
+     <connect index="0">
+      <client>system</client>
+      <port>playback_1</port>
+     </connect>
+     <connect index="1">
+      <client>system</client>
+      <port>playback_2</port>
+     </connect>
+    </audio-outputs>
+   </plugins>
+  </track>
+ </tracks>
+</session>
+

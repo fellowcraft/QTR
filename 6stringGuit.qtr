@@ -1,0 +1,301 @@
+<!DOCTYPE qtractorSession>
+<session version="Qtractor 0.8.4" name="6stringGuit">
+ <properties>
+  <directory>/home/frank/Music/QTR</directory>
+  <description>Audio file import "ZOOM0005.WAV" on Nov 14 2017 10:52:40.</description>
+  <sample-rate>44100</sample-rate>
+  <tempo>120</tempo>
+  <ticks-per-beat>960</ticks-per-beat>
+  <beats-per-bar>4</beats-per-bar>
+  <beat-divisor>2</beat-divisor>
+ </properties>
+ <state>
+  <loop-start>0</loop-start>
+  <loop-end>0</loop-end>
+  <punch-in>0</punch-in>
+  <punch-out>0</punch-out>
+ </state>
+ <files>
+  <audio-list>
+   <file name="ZOOM0005.WAV">../WAV/ZOOM0005.WAV</file>
+  </audio-list>
+  <midi-list/>
+ </files>
+ <devices>
+  <audio-engine>
+   <audio-control>
+    <transport-mode>duplex</transport-mode>
+    <timebase>1</timebase>
+   </audio-control>
+   <audio-bus mode="duplex" name="Master">
+    <monitor>0</monitor>
+    <channels>2</channels>
+    <auto-connect>1</auto-connect>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins/>
+    <input-connects>
+     <connect index="0">
+      <client>amsynth</client>
+      <port>L out</port>
+     </connect>
+     <connect index="1">
+      <client>amsynth</client>
+      <port>R out</port>
+     </connect>
+    </input-connects>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <plugin type="LV2">
+      <filename>http://calf.sourceforge.net/plugins/Limiter</filename>
+      <index>0</index>
+      <label>Calf_Limiter</label>
+      <preset></preset>
+      <direct-access-param>-1</direct-access-param>
+      <activated>1</activated>
+      <configs/>
+      <params>
+       <param index="4" name="Bypass">0</param>
+       <param index="5" name="Input Gain">1.44193</param>
+       <param index="6" name="Output Gain">1</param>
+       <param index="15" name="Limit">1</param>
+       <param index="16" name="Lookahead">5</param>
+       <param index="17" name="Release">50</param>
+       <param index="19" name="ASC">1</param>
+       <param index="21" name="ASC Level">0.5</param>
+       <param index="22" name="Oversampling">1</param>
+      </params>
+      <controllers/>
+      <editor-pos>69,304</editor-pos>
+      <form-pos>0,0</form-pos>
+     </plugin>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>system</client>
+      <port>playback_1</port>
+     </connect>
+     <connect index="1">
+      <client>system</client>
+      <port>playback_2</port>
+     </connect>
+    </output-connects>
+   </audio-bus>
+  </audio-engine>
+  <midi-engine>
+   <midi-control>
+    <mmc-mode>duplex</mmc-mode>
+    <mmc-device>127</mmc-device>
+    <spp-mode>duplex</spp-mode>
+    <clock-mode>none</clock-mode>
+   </midi-control>
+   <midi-bus mode="duplex" name="Master">
+    <monitor>0</monitor>
+    <input-gain>1</input-gain>
+    <input-panning>0</input-panning>
+    <input-controllers/>
+    <input-plugins>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </input-plugins>
+    <input-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+    </input-connects>
+    <output-gain>1</output-gain>
+    <output-panning>0</output-panning>
+    <output-controllers/>
+    <output-plugins>
+     <audio-output-bus-name></audio-output-bus-name>
+     <audio-output-bus>0</audio-output-bus>
+     <audio-output-auto-connect>1</audio-output-auto-connect>
+    </output-plugins>
+    <output-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+    </output-connects>
+   </midi-bus>
+  </midi-engine>
+ </devices>
+ <tracks>
+  <view>
+   <pixels-per-beat>32</pixels-per-beat>
+   <horizontal-zoom>10</horizontal-zoom>
+   <vertical-zoom>100</vertical-zoom>
+   <snap-per-beat>0</snap-per-beat>
+   <edit-head>0</edit-head>
+   <edit-tail>11576250</edit-tail>
+  </view>
+  <track type="audio" name="ZOOM0005">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>0</record>
+    <monitor>0</monitor>
+    <gain>1.58489</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>530</height>
+    <background-color>#ccffff</background-color>
+    <foreground-color>#667f7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="ZOOM0005">
+     <properties>
+      <name>ZOOM0005</name>
+      <start>0</start>
+      <offset>70973</offset>
+      <length>818606</length>
+      <gain>2.45471</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0005.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ZOOM0005">
+     <properties>
+      <name>ZOOM0005</name>
+      <start>818606</start>
+      <offset>962621</offset>
+      <length>6492347</length>
+      <gain>1.61737</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0005.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ZOOM0005">
+     <properties>
+      <name>ZOOM0005</name>
+      <start>7310953</start>
+      <offset>7454969</offset>
+      <length>241172</length>
+      <gain>1</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0005.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+    <clip name="ZOOM0005">
+     <properties>
+      <name>ZOOM0005</name>
+      <start>7552125</start>
+      <offset>7696141</offset>
+      <length>3169687</length>
+      <gain>1.61737</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>../WAV/ZOOM0005.WAV</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+   </clips>
+   <plugins>
+    <plugin type="LV2">
+     <filename>http://calf.sourceforge.net/plugins/RingModulator</filename>
+     <index>0</index>
+     <label>Calf_Ring_Modulator</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs/>
+     <params>
+      <param index="4" name="Bypass">0</param>
+      <param index="5" name="Input Gain">1</param>
+      <param index="6" name="Output Gain">1</param>
+      <param index="15" name="Modulator">0</param>
+      <param index="16" name="Mod Freq">168.195</param>
+      <param index="17" name="Mod Amount">0.484</param>
+      <param index="18" name="Mod Phase">0.5</param>
+      <param index="19" name="Mod Detune">0</param>
+      <param index="20" name="Listen">0</param>
+      <param index="21" name="LFO 1">0</param>
+      <param index="22" name="LFO 1 Freq">1.27057</param>
+      <param index="23" name="Reset 1">0</param>
+      <param index="24" name="Mod Freq LO">100</param>
+      <param index="25" name="Mod Freq HI">10000</param>
+      <param index="26" name="Mod Freq Active">0</param>
+      <param index="27" name="Mod Detune LO">-119.2</param>
+      <param index="28" name="Mod Detune HI">100</param>
+      <param index="29" name="Mod Detune Active">1</param>
+      <param index="31" name="LFO 2">0</param>
+      <param index="32" name="LFO 2 Freq">0.100237</param>
+      <param index="33" name="Reset 2">0</param>
+      <param index="34" name="LFO Freq LO">0.05</param>
+      <param index="35" name="LFO Freq HI">0.5</param>
+      <param index="36" name="LFO 1 Freq Active">1</param>
+      <param index="37" name="Mod Amount LO">0.3</param>
+      <param index="38" name="Mod Amount HI">0.6</param>
+      <param index="39" name="Mod Amount Active">1</param>
+     </params>
+     <controllers/>
+     <editor-pos>340,144</editor-pos>
+     <form-pos>0,0</form-pos>
+    </plugin>
+    <plugin type="LV2">
+     <filename>http://drobilla.net/plugins/mda/DubDelay</filename>
+     <index>0</index>
+     <label>MDA_DubDelay</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activated>1</activated>
+     <configs/>
+     <params>
+      <param index="0" name="Delay">0.5</param>
+      <param index="1" name="Feedback">0.8022</param>
+      <param index="2" name="Fb Tone">0.4</param>
+      <param index="3" name="LFO Depth">0.4363</param>
+      <param index="4" name="LFO Rate">0.4661</param>
+      <param index="5" name="FX Mix">0.8916</param>
+      <param index="6" name="Output">1</param>
+     </params>
+     <controllers/>
+     <editor-pos>0,0</editor-pos>
+     <form-pos>543,279</form-pos>
+    </plugin>
+   </plugins>
+  </track>
+ </tracks>
+</session>
+
