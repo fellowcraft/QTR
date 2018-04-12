@@ -7,6 +7,8 @@ MIDI file import "Val-a3-2.mid" on Apr 09 2018 15:53:44.
 MIDI file import "Val-a3-a3.MID" on Apr 10 2018 08:17:17.
 MIDI file import "Val-a3-6.MID" on Apr 10 2018 13:40:31.
 MIDI file import "Val-a3-7.MID" on Apr 10 2018 17:47:00.
+MIDI file import "Val-a3-9.MID" on Apr 11 2018 18:39:32.
+MIDI file import "Val-a3-end.MID" on Apr 12 2018 10:27:33.
 </description>
   <sample-rate>44100</sample-rate>
   <tempo>120</tempo>
@@ -21,13 +23,20 @@ MIDI file import "Val-a3-7.MID" on Apr 10 2018 17:47:00.
   <punch-out>0</punch-out>
  </state>
  <files>
-  <audio-list/>
+  <audio-list>
+   <file name="Valkyrjar_act3-Track_2-1.wav">Valkyrjar_act3-Track_2-1.wav</file>
+   <file name="Valkyrjar_act3-Track_2-2.wav">Valkyrjar_act3-Track_2-2.wav</file>
+  </audio-list>
   <midi-list>
    <file name="Valkyrjar_act3-Val_a3_1-7.mid">Valkyrjar_act3-Val_a3_1-7.mid</file>
    <file name="Valkyrjar_act3-Val_a3_1-6.mid">Valkyrjar_act3-Val_a3_1-6.mid</file>
    <file name="Valkyrjar_act3-Val_a3_1-8.mid">Valkyrjar_act3-Val_a3_1-8.mid</file>
    <file name="Valkyrjar_act3-Val_a3_1-9.mid">Valkyrjar_act3-Val_a3_1-9.mid</file>
    <file name="Valkyrjar_act3-Val_a3_1-10.mid">Valkyrjar_act3-Val_a3_1-10.mid</file>
+   <file name="Val-a3-9.MID">../MIDI/Val-a3-9.MID</file>
+   <file name="Valkyrjar_act3-Val_a3_1-11.mid">Valkyrjar_act3-Val_a3_1-11.mid</file>
+   <file name="Val-a3-end.MID">../MIDI/Val-a3-end.MID</file>
+   <file name="Valkyrjar_act3-Val_a3_1-12.mid">Valkyrjar_act3-Val_a3_1-12.mid</file>
   </midi-list>
  </files>
  <devices>
@@ -47,11 +56,11 @@ MIDI file import "Val-a3-7.MID" on Apr 10 2018 17:47:00.
     <input-connects>
      <connect index="0">
       <client>qsynth</client>
-      <port>l_00</port>
+      <port>left</port>
      </connect>
      <connect index="1">
       <client>qsynth</client>
-      <port>r_00</port>
+      <port>right</port>
      </connect>
     </input-connects>
     <output-gain>1</output-gain>
@@ -87,45 +96,56 @@ MIDI file import "Val-a3-7.MID" on Apr 10 2018 17:47:00.
      <audio-output-bus>0</audio-output-bus>
      <audio-output-auto-connect>1</audio-output-auto-connect>
     </input-plugins>
-    <input-connects/>
+    <input-connects>
+     <connect index="0">
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+    </input-connects>
     <output-gain>1</output-gain>
     <output-panning>0</output-panning>
     <output-controllers/>
     <output-plugins>
      <bank>0</bank>
-     <program>0</program>
+     <program>32</program>
      <audio-output-bus-name></audio-output-bus-name>
      <audio-output-bus>0</audio-output-bus>
      <audio-output-auto-connect>1</audio-output-auto-connect>
     </output-plugins>
     <output-connects>
      <connect index="0">
-      <client>129:FLUID Synth (12501)</client>
-      <port>0:Synth input port (12501:0)</port>
+      <client>129:jack_midi</client>
+      <port>0:port</port>
+     </connect>
+     <connect index="0">
+      <client>130:FLUID Synth (20779)</client>
+      <port>0:Synth input port (20779:0)</port>
      </connect>
     </output-connects>
     <midi-map>
+     <midi-patch channel="6">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+      <midi-bank>0</midi-bank>
+      <midi-program>32</midi-program>
+     </midi-patch>
+     <midi-patch channel="5">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
+      <midi-bank>0</midi-bank>
+      <midi-program>49</midi-program>
+     </midi-patch>
      <midi-patch channel="4">
       <midi-bank-sel-method>0</midi-bank-sel-method>
       <midi-bank>0</midi-bank>
       <midi-program>0</midi-program>
      </midi-patch>
-     <midi-patch channel="5">
-      <midi-bank>0</midi-bank>
-      <midi-program>49</midi-program>
+     <midi-patch channel="3">
+      <midi-bank-sel-method>0</midi-bank-sel-method>
      </midi-patch>
      <midi-patch channel="2">
       <midi-bank-sel-method>0</midi-bank-sel-method>
      </midi-patch>
-     <midi-patch channel="3">
-      <midi-bank-sel-method>0</midi-bank-sel-method>
-     </midi-patch>
      <midi-patch channel="1">
       <midi-bank-sel-method>0</midi-bank-sel-method>
-     </midi-patch>
-     <midi-patch channel="6">
-      <midi-bank>0</midi-bank>
-      <midi-program>32</midi-program>
      </midi-patch>
     </midi-map>
    </midi-bus>
@@ -137,8 +157,8 @@ MIDI file import "Val-a3-7.MID" on Apr 10 2018 17:47:00.
    <horizontal-zoom>10</horizontal-zoom>
    <vertical-zoom>100</vertical-zoom>
    <snap-per-beat>0</snap-per-beat>
-   <edit-head>127563552</edit-head>
-   <edit-tail>127563552</edit-tail>
+   <edit-head>166167424</edit-head>
+   <edit-tail>166328208</edit-tail>
   </view>
   <track type="midi" name="Val-a3-1">
    <properties>
@@ -146,6 +166,7 @@ MIDI file import "Val-a3-7.MID" on Apr 10 2018 17:47:00.
     <output-bus>Master</output-bus>
     <midi-omni>0</midi-omni>
     <midi-channel>4</midi-channel>
+    <midi-bank-sel-method>0</midi-bank-sel-method>
     <midi-bank>0</midi-bank>
     <midi-program>0</midi-program>
    </properties>
@@ -158,7 +179,7 @@ MIDI file import "Val-a3-7.MID" on Apr 10 2018 17:47:00.
     <panning>0</panning>
    </state>
    <view>
-    <height>307</height>
+    <height>387</height>
     <background-color>#99ccff</background-color>
     <foreground-color>#4c667f</foreground-color>
    </view>
@@ -169,18 +190,18 @@ MIDI file import "Val-a3-7.MID" on Apr 10 2018 17:47:00.
       <name>Val-a3-1</name>
       <start>0</start>
       <offset>0</offset>
-      <length>129410992</length>
+      <length>174939216</length>
       <gain>1</gain>
       <panning>0</panning>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
      </properties>
      <midi-clip>
-      <filename>Valkyrjar_act3-Val_a3_1-10.mid</filename>
+      <filename>Valkyrjar_act3-Val_a3_1-12.mid</filename>
       <track-channel>1</track-channel>
-      <revision>17</revision>
-      <editor-pos>0,0</editor-pos>
-      <editor-size>1600,847</editor-size>
+      <revision>18</revision>
+      <editor-pos>35,27</editor-pos>
+      <editor-size>1565,845</editor-size>
      </midi-clip>
     </clip>
    </clips>
@@ -191,6 +212,48 @@ MIDI file import "Val-a3-7.MID" on Apr 10 2018 17:47:00.
     <audio-output-bus>0</audio-output-bus>
     <audio-output-auto-connect>1</audio-output-auto-connect>
    </plugins>
+  </track>
+  <track type="audio" name="Track 2">
+   <properties>
+    <input-bus>Master</input-bus>
+    <output-bus>Master</output-bus>
+   </properties>
+   <state>
+    <mute>0</mute>
+    <solo>0</solo>
+    <record>1</record>
+    <monitor>0</monitor>
+    <gain>1</gain>
+    <panning>0</panning>
+   </state>
+   <view>
+    <height>153</height>
+    <background-color>#99ffff</background-color>
+    <foreground-color>#4c7f7f</foreground-color>
+   </view>
+   <controllers/>
+   <clips>
+    <clip name="Valkyrjar_act3-Track_2-2">
+     <properties>
+      <name>Valkyrjar_act3-Track_2-2</name>
+      <start>0</start>
+      <offset>1034</offset>
+      <length>175133696</length>
+      <gain>1.31789</gain>
+      <panning>0</panning>
+      <fade-in type="InQuad">0</fade-in>
+      <fade-out type="OutQuad">0</fade-out>
+     </properties>
+     <audio-clip>
+      <filename>Valkyrjar_act3-Track_2-2.wav</filename>
+      <time-stretch>1</time-stretch>
+      <pitch-shift>1</pitch-shift>
+      <wsola-time-stretch>1</wsola-time-stretch>
+      <wsola-quick-seek>0</wsola-quick-seek>
+     </audio-clip>
+    </clip>
+   </clips>
+   <plugins/>
   </track>
  </tracks>
 </session>

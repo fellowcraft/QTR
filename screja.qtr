@@ -61,7 +61,7 @@ MIDI file import "screja8.MID" on Apr 05 2018 09:39:37.
     <transport-mode>duplex</transport-mode>
     <timebase>1</timebase>
    </audio-control>
-   <audio-bus name="Master" mode="duplex">
+   <audio-bus mode="duplex" name="Master">
     <monitor>1</monitor>
     <channels>2</channels>
     <auto-connect>1</auto-connect>
@@ -92,15 +92,15 @@ MIDI file import "screja8.MID" on Apr 05 2018 09:39:37.
       <activated>1</activated>
       <configs/>
       <params>
-       <param name="Bypass" index="4">0</param>
-       <param name="Input Gain" index="5">1.18099</param>
-       <param name="Output Gain" index="6">1</param>
-       <param name="Limit" index="15">1</param>
-       <param name="Lookahead" index="16">5</param>
-       <param name="Release" index="17">50</param>
-       <param name="ASC" index="19">1</param>
-       <param name="ASC Level" index="21">0.5</param>
-       <param name="Oversampling" index="22">1</param>
+       <param index="4" name="Bypass">0</param>
+       <param index="5" name="Input Gain">1.18099</param>
+       <param index="6" name="Output Gain">1</param>
+       <param index="15" name="Limit">1</param>
+       <param index="16" name="Lookahead">5</param>
+       <param index="17" name="Release">50</param>
+       <param index="19" name="ASC">1</param>
+       <param index="21" name="ASC Level">0.5</param>
+       <param index="22" name="Oversampling">1</param>
       </params>
       <controllers/>
       <editor-pos>0,0</editor-pos>
@@ -126,7 +126,7 @@ MIDI file import "screja8.MID" on Apr 05 2018 09:39:37.
     <spp-mode>duplex</spp-mode>
     <clock-mode>none</clock-mode>
    </midi-control>
-   <midi-bus name="Master" mode="duplex">
+   <midi-bus mode="duplex" name="Master">
     <monitor>0</monitor>
     <input-gain>1</input-gain>
     <input-panning>0</input-panning>
@@ -149,8 +149,8 @@ MIDI file import "screja8.MID" on Apr 05 2018 09:39:37.
     </output-plugins>
     <output-connects>
      <connect index="0">
-      <client>129:FLUID Synth (17004)</client>
-      <port>0:Synth input port (17004:0)</port>
+      <client>129:FLUID Synth (7857)</client>
+      <port>0:Synth input port (7857:0)</port>
      </connect>
     </output-connects>
     <midi-map>
@@ -182,7 +182,7 @@ MIDI file import "screja8.MID" on Apr 05 2018 09:39:37.
     <midi-program>0</midi-program>
    </properties>
    <state>
-    <mute>1</mute>
+    <mute>0</mute>
     <solo>0</solo>
     <record>0</record>
     <monitor>0</monitor>
@@ -230,7 +230,7 @@ MIDI file import "screja8.MID" on Apr 05 2018 09:39:37.
     <output-bus>Master</output-bus>
    </properties>
    <state>
-    <mute>0</mute>
+    <mute>1</mute>
     <solo>0</solo>
     <record>1</record>
     <monitor>0</monitor>
@@ -263,25 +263,6 @@ MIDI file import "screja8.MID" on Apr 05 2018 09:39:37.
       <wsola-quick-seek>0</wsola-quick-seek>
      </audio-clip>
     </clip>
-    <clip name="Track_2-4">
-     <properties>
-      <name>Track_2-4</name>
-      <start>227989520</start>
-      <offset>227990512</offset>
-      <length>0</length>
-      <gain>1</gain>
-      <panning>0</panning>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>screja-Track_2-4.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-      <wsola-time-stretch>1</wsola-time-stretch>
-      <wsola-quick-seek>0</wsola-quick-seek>
-     </audio-clip>
-    </clip>
    </clips>
    <plugins>
     <plugin type="LV2">
@@ -293,15 +274,15 @@ MIDI file import "screja8.MID" on Apr 05 2018 09:39:37.
      <activated>1</activated>
      <configs/>
      <params>
-      <param name="Decay time" index="7">1.5</param>
-      <param name="High Frq Damp" index="8">15380.5</param>
-      <param name="Room size" index="9">2</param>
-      <param name="Diffusion" index="10">0.5</param>
-      <param name="Wet Amount" index="11">0.221288</param>
-      <param name="Dry Amount" index="12">1</param>
-      <param name="Pre Delay" index="13">0</param>
-      <param name="Bass Cut" index="14">300</param>
-      <param name="Treble Cut" index="15">20000</param>
+      <param index="7" name="Decay time">1.5</param>
+      <param index="8" name="High Frq Damp">15380.5</param>
+      <param index="9" name="Room size">2</param>
+      <param index="10" name="Diffusion">0.5</param>
+      <param index="11" name="Wet Amount">0.221288</param>
+      <param index="12" name="Dry Amount">1</param>
+      <param index="13" name="Pre Delay">0</param>
+      <param index="14" name="Bass Cut">300</param>
+      <param index="15" name="Treble Cut">20000</param>
      </params>
      <controllers/>
      <editor-pos>0,0</editor-pos>
