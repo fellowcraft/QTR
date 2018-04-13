@@ -1,5 +1,5 @@
 <!DOCTYPE qtractorSession>
-<session version="Qtractor 0.9.1" name="Valkyrjar-act3">
+<session version="Qtractor 0.7.1" name="Valkyrjar-act3">
  <properties>
   <directory>/home/frank/Music/QTR</directory>
   <description>MIDI file import "Val-a3-1.mid" on Apr 09 2018 08:29:28.
@@ -24,8 +24,7 @@ MIDI file import "Val-a3-end.MID" on Apr 12 2018 10:27:33.
  </state>
  <files>
   <audio-list>
-   <file name="Valkyrjar_act3-Track_2-1.wav">Valkyrjar_act3-Track_2-1.wav</file>
-   <file name="Valkyrjar_act3-Track_2-2.wav">Valkyrjar_act3-Track_2-2.wav</file>
+   <file name="078300.wav">../WAV/078300.wav</file>
   </audio-list>
   <midi-list>
    <file name="Valkyrjar_act3-Val_a3_1-7.mid">Valkyrjar_act3-Val_a3_1-7.mid</file>
@@ -56,17 +55,42 @@ MIDI file import "Val-a3-end.MID" on Apr 12 2018 10:27:33.
     <input-connects>
      <connect index="0">
       <client>qsynth</client>
-      <port>left</port>
+      <port>l_00</port>
      </connect>
      <connect index="1">
       <client>qsynth</client>
-      <port>right</port>
+      <port>r_00</port>
      </connect>
     </input-connects>
     <output-gain>1</output-gain>
     <output-panning>0</output-panning>
     <output-controllers/>
-    <output-plugins/>
+    <output-plugins>
+     <plugin type="LV2">
+      <filename>http://calf.sourceforge.net/plugins/Limiter</filename>
+      <index>0</index>
+      <label>Calf_Limiter</label>
+      <preset></preset>
+      <direct-access-param>-1</direct-access-param>
+      <activate-subject-index>23</activate-subject-index>
+      <activated>1</activated>
+      <configs/>
+      <params>
+       <param index="17" name="Release">50</param>
+       <param index="19" name="ASC">1</param>
+       <param index="4" name="Bypass">0</param>
+       <param index="21" name="ASC Level">0.5</param>
+       <param index="5" name="Input Gain">1.18099</param>
+       <param index="22" name="Oversampling">1</param>
+       <param index="6" name="Output Gain">1</param>
+       <param index="15" name="Limit">1</param>
+       <param index="16" name="Lookahead">5</param>
+      </params>
+      <controllers/>
+      <editor-pos>449,265</editor-pos>
+      <form-pos>0,0</form-pos>
+     </plugin>
+    </output-plugins>
     <output-connects>
      <connect index="0">
       <client>system</client>
@@ -96,56 +120,38 @@ MIDI file import "Val-a3-end.MID" on Apr 12 2018 10:27:33.
      <audio-output-bus>0</audio-output-bus>
      <audio-output-auto-connect>1</audio-output-auto-connect>
     </input-plugins>
-    <input-connects>
-     <connect index="0">
-      <client>129:jack_midi</client>
-      <port>0:port</port>
-     </connect>
-    </input-connects>
+    <input-connects/>
     <output-gain>1</output-gain>
     <output-panning>0</output-panning>
     <output-controllers/>
     <output-plugins>
      <bank>0</bank>
-     <program>32</program>
+     <program>0</program>
      <audio-output-bus-name></audio-output-bus-name>
      <audio-output-bus>0</audio-output-bus>
      <audio-output-auto-connect>1</audio-output-auto-connect>
     </output-plugins>
     <output-connects>
      <connect index="0">
-      <client>129:jack_midi</client>
-      <port>0:port</port>
-     </connect>
-     <connect index="0">
-      <client>130:FLUID Synth (20779)</client>
-      <port>0:Synth input port (20779:0)</port>
+      <client>129:FLUID Synth (5519)</client>
+      <port>0:Synth input port (5519:0)</port>
      </connect>
     </output-connects>
     <midi-map>
-     <midi-patch channel="6">
+     <midi-patch channel="4">
       <midi-bank-sel-method>0</midi-bank-sel-method>
       <midi-bank>0</midi-bank>
-      <midi-program>32</midi-program>
+      <midi-program>0</midi-program>
      </midi-patch>
      <midi-patch channel="5">
       <midi-bank-sel-method>0</midi-bank-sel-method>
       <midi-bank>0</midi-bank>
       <midi-program>49</midi-program>
      </midi-patch>
-     <midi-patch channel="4">
+     <midi-patch channel="6">
       <midi-bank-sel-method>0</midi-bank-sel-method>
       <midi-bank>0</midi-bank>
-      <midi-program>0</midi-program>
-     </midi-patch>
-     <midi-patch channel="3">
-      <midi-bank-sel-method>0</midi-bank-sel-method>
-     </midi-patch>
-     <midi-patch channel="2">
-      <midi-bank-sel-method>0</midi-bank-sel-method>
-     </midi-patch>
-     <midi-patch channel="1">
-      <midi-bank-sel-method>0</midi-bank-sel-method>
+      <midi-program>32</midi-program>
      </midi-patch>
     </midi-map>
    </midi-bus>
@@ -157,8 +163,8 @@ MIDI file import "Val-a3-end.MID" on Apr 12 2018 10:27:33.
    <horizontal-zoom>10</horizontal-zoom>
    <vertical-zoom>100</vertical-zoom>
    <snap-per-beat>0</snap-per-beat>
-   <edit-head>166167424</edit-head>
-   <edit-tail>166328208</edit-tail>
+   <edit-head>153074736</edit-head>
+   <edit-tail>154880576</edit-tail>
   </view>
   <track type="midi" name="Val-a3-1">
    <properties>
@@ -190,18 +196,16 @@ MIDI file import "Val-a3-end.MID" on Apr 12 2018 10:27:33.
       <name>Val-a3-1</name>
       <start>0</start>
       <offset>0</offset>
-      <length>174939216</length>
+      <length>155456896</length>
       <gain>1</gain>
-      <panning>0</panning>
       <fade-in type="InQuad">0</fade-in>
       <fade-out type="OutQuad">0</fade-out>
      </properties>
      <midi-clip>
       <filename>Valkyrjar_act3-Val_a3_1-12.mid</filename>
       <track-channel>1</track-channel>
-      <revision>18</revision>
-      <editor-pos>35,27</editor-pos>
-      <editor-size>1565,845</editor-size>
+      <revision>27</revision>
+      <editor-size>1598,847</editor-size>
      </midi-clip>
     </clip>
    </clips>
@@ -232,28 +236,33 @@ MIDI file import "Val-a3-end.MID" on Apr 12 2018 10:27:33.
     <foreground-color>#4c7f7f</foreground-color>
    </view>
    <controllers/>
-   <clips>
-    <clip name="Valkyrjar_act3-Track_2-2">
-     <properties>
-      <name>Valkyrjar_act3-Track_2-2</name>
-      <start>0</start>
-      <offset>1034</offset>
-      <length>175133696</length>
-      <gain>1.31789</gain>
-      <panning>0</panning>
-      <fade-in type="InQuad">0</fade-in>
-      <fade-out type="OutQuad">0</fade-out>
-     </properties>
-     <audio-clip>
-      <filename>Valkyrjar_act3-Track_2-2.wav</filename>
-      <time-stretch>1</time-stretch>
-      <pitch-shift>1</pitch-shift>
-      <wsola-time-stretch>1</wsola-time-stretch>
-      <wsola-quick-seek>0</wsola-quick-seek>
-     </audio-clip>
-    </clip>
-   </clips>
-   <plugins/>
+   <clips/>
+   <plugins>
+    <plugin type="LV2">
+     <filename>http://calf.sourceforge.net/plugins/Reverb</filename>
+     <index>0</index>
+     <label>Calf_Reverb</label>
+     <preset></preset>
+     <direct-access-param>-1</direct-access-param>
+     <activate-subject-index>16</activate-subject-index>
+     <activated>1</activated>
+     <configs/>
+     <params>
+      <param index="7" name="Decay time">1.5</param>
+      <param index="8" name="High Frq Damp">17020.4</param>
+      <param index="9" name="Room size">2</param>
+      <param index="10" name="Diffusion">0.5</param>
+      <param index="11" name="Wet Amount">0.221288</param>
+      <param index="12" name="Dry Amount">1</param>
+      <param index="13" name="Pre Delay">0</param>
+      <param index="14" name="Bass Cut">300</param>
+      <param index="15" name="Treble Cut">14288</param>
+     </params>
+     <controllers/>
+     <editor-pos>442,317</editor-pos>
+     <form-pos>0,0</form-pos>
+    </plugin>
+   </plugins>
   </track>
  </tracks>
 </session>
